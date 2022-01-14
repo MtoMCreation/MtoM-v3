@@ -1,0 +1,112 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body{
+    @apply text-xl
+}
+p{
+    @apply leading-relaxed
+}
+
+.h-hero{
+    min-height: calc(100vh - 120px);
+}
+
+.page-section-1{
+    @apply py-28 lg:py-56;
+}
+
+.page-section-2{
+    @apply py-28 lg:py-28;
+}
+
+.title-1{
+    @apply text-5xl font-black font-title uppercase leading-title-1;
+}
+
+.title-2{
+    @apply text-4xl font-black font-title uppercase;
+}
+
+.sub-title-2{
+    @apply text-5xl lg:text-7xl -mb-10 font-black font-title uppercase;
+}
+
+.top-navigation-links a svg{
+    width: 15px;
+    height: 15px;
+}
+
+.class-test{
+    @apply bg-blue-300 font-bold text-white px-4 py-1 rounded
+}
+.font-title{
+    font-family: 'Poppins', sans-serif
+}
+
+.main-nav .nav-links a.active{
+    @apply underline decoration-2 decoration-mtom-blue underline-offset-[5px]
+}
+
+.megamenu .sub-navigation a{
+    @apply pl-3 py-1 block text-base border-l-2 border-white hover:border-mtom-orange hover:bg-gray-50 rounded transition font-bold text-gray-600 hover:text-mtom-blue
+}
+.megamenu .sub-navigation a.active {
+    @apply pl-3 py-1 block text-base text-mtom-blue border-l-2 border-mtom-orange bg-mtom-orange hover:border-mtom-orange rounded transition font-bold
+}
+
+.footer-navigation ul a{
+    @apply py-1 block text-base font-bold text-gray-500 hover:text-mtom-orange
+}
+.footer-navigation ul a.active {
+    @apply py-1 block text-base font-bold text-gray-400 underline
+}
+
+.button svg{
+    transition-duration: 300ms;
+}
+.button:hover svg{
+    transform: rotate(90deg);
+    margin-left: 20px !important;
+}
+
+.custom-input {
+    @apply shadow rounded w-full py-2 px-3 text-gray-700 focus:shadow-lg transition-all outline-none border-l-4 border-transparent focus:border-l-mtom-orange caret-mtom-orange
+}
+.custom-input-2 {
+    @apply shadow rounded-full w-full py-2 px-3 pl-10 text-gray-700 focus:shadow-lg transition-all outline-none border-l-4 border-transparent focus:border-l-mtom-blue caret-mtom-orange
+}
+label .custom-label{
+    @apply block text-gray-700 text-sm font-bold mb-2
+}
+.presentation-projet .custom-label {
+    @apply font-black text-gray-600
+}
+
+.form-error-span{
+    @apply text-xs font-black text-red-500 italic
+}
+
+.custom-underline {
+    @apply font-bold underline decoration-4 decoration-mtom-orange
+}
+
+/* ARTICLES */
+.article-content h2{
+    @apply text-2xl font-bold mb-2 mt-10
+}
+.article-content h3{
+    @apply text-xl font-bold mb-2 mt-6
+}
+.article-content ul li{
+    @apply list-disc ml-6 mt-3
+}
+.article-content a{
+    @apply text-mtom-orange font-bold
+}
+
+@layer components {
+
+}
+
