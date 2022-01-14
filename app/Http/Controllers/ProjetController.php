@@ -104,7 +104,7 @@ class ProjetController extends Controller
         return $request->validate([
             'etat_id'                   => 'required|integer',
             'client'                    => 'required',
-            'description_prestation'    => 'string',
+            'description_prestation'    => 'nullable|string',
             'date_publication'          => 'required',
             'date_publication_order'    => 'required',
             'lien_site'                 => 'required',
