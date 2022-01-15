@@ -58,8 +58,8 @@
 
                     <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
                         <div class="lg:w-1/2">
-                            <x-icon-box-1 titre="Adaptée à la demande actuelle">
-                                Depuis des années, les consommateurs sont de plus en plus nombreux à faire des achats en ligne. La pandémie n’a fait qu’accélérer cette tendance, ne manquez pas le mouvement !
+                            <x-icon-box-1 titre="Ouvert 24/7">
+                                Plus aucune contrainte horaire ! Votre boutique en ligne reste ouverte 24/7 et vous pouvez vendre vos produits/services en tout temps.
                             </x-icon-box-1>
                         </div>
 
@@ -86,8 +86,8 @@
 
                     <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
                         <div class="lg:w-1/2">
-                            <x-icon-box-1 titre="Ouvert 24/7">
-                                Plus aucune contrainte horaire ! Votre boutique en ligne reste ouverte 24/7 et vous pouvez vendre vos produits/services en tout temps.
+                            <x-icon-box-1 titre="Adaptée à la demande actuelle">
+                                Depuis des années, les consommateurs sont de plus en plus nombreux à faire des achats en ligne. La pandémie n’a fait qu’accélérer cette tendance, ne manquez pas le mouvement !
                             </x-icon-box-1>
                         </div>
 
