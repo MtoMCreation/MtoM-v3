@@ -182,6 +182,30 @@
             @enderror
         </div>
 
+        <div class="w-full">
+            <label for="temoignage" class="block font-bold text-base mb-1">Témoignage</label>
+            <textarea name="reponse" id="reponse" rows="5" class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2">{{ isset($projet->temoignage) ? $projet->temoignage : old('temoignage') }}</textarea>
+            @error('temoignage')
+            <div class="text-base font-bold text-red-500">
+                {{ $message }}
+            </div>
+            @enderror
+        </div>
+
+        <div class="">
+            <div class="w-full">
+                <label for="nom_temoignage" class="block font-bold text-base mb-1">Nom temoignage</label>
+                <input type="text" name="nom_temoignage" id="nom_temoignage"
+                       class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2"
+                       value="{{ isset($projet->nom_temoignage) ? $projet->nom_temoignage : old('nom_temoignage') }}">
+                @error('nom_temoignage')
+                <div class="text-base font-bold text-red-500">
+                    {{ $message }}
+                </div>
+                @enderror
+            </div>
+        </div>
+
     </div>
 
     <div class="w-1/4">

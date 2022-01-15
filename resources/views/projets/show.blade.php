@@ -61,21 +61,28 @@
         </div>
     </div>
 
+
     <div class="lg:-mt-20 pb-20">
         @if($projet->image_reponse)
-            <div class="container mt-10">
+            <div class="container my-10">
                 <a href="{{ $projet->lien_site }}" target="_blank">
                     <img src="{{ asset($projet->image_reponse) }}" alt="image-prestation-client-{{$projet->client}}-{{config('app.tagline-slug')}}" class="w-full">
                 </a>
             </div>
         @endif
 
-        <div class="max-w-[900px] mx-auto">
-            <div class="m-10 mb-20 article-content">
+        <div class="max-w-[1000px] container">
+
+            <div class="container mb-20 article-content">
                 <div class="mt-10 text-xl leading- list-disc" style="max-width: 900px; margin: auto">
                     {!! $projet->reponse !!}
                 </div>
             </div>
+
+        </div>
+
+        <div class="max-w-[900px] mx-auto">
+
 
             <div class=" pt-12 border-t">
                 <h4 class="font-title text-xl font-bold">Projets similaires</h4>

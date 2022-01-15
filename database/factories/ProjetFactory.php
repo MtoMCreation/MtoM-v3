@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Projet;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 use function Symfony\Component\Translation\t;
 
 class ProjetFactory extends Factory
@@ -22,11 +23,12 @@ class ProjetFactory extends Factory
      */
     public function definition()
     {
+        $nom = $this->faker->company;
         return [
             'etat_id' => 2,
-            'client' => $this->faker->company,
+            'client' => $nom,
             'logo' => 'storage/img/projets/logos/logo-mtom.png',
-            'slug' => $this->faker->slug(4),
+            'slug' => Str::slug($nom),
             'meta_titre' => $this->faker->text(60),
             'meta_description' => $this->faker->text(160),
             'image' => 'storage/img/projets/img/image-projet-test.png',

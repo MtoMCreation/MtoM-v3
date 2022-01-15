@@ -115,6 +115,8 @@ class ProjetController extends Controller
             'demande'                   => 'required',
             'image_reponse'             => 'image|mimes:jpg,jpeg,png|nullable',
             'reponse'                   => 'required',
+            'temoignage'                => 'nullable|string',
+            'nom_temoignage'            => 'nullable|string'
         ]);
     }
 
