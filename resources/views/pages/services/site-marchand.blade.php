@@ -56,17 +56,47 @@
 
                 <div class="mt-8 space-y-8">
 
-                    <x-icon-box-1 titre="Créer ou augmenter votre source de revenu">
-                        La boutique en ligne est un très bon moyen pour créer une nouvelle source de revenu ou compléter les revenus d’une boutique physique par exemple. Elle permet un accroissement des ventes sans les contraintes d’une boutique physique.
-                    </x-icon-box-1>
+                    <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Adaptée à la demande actuelle">
+                                Depuis des années, les consommateurs sont de plus en plus nombreux à faire des achats en ligne. La pandémie n’a fait qu’accélérer cette tendance, ne manquez pas le mouvement !
+                            </x-icon-box-1>
+                        </div>
 
-                    <x-icon-box-1 titre="Agrandir sa clientèle">
-                        Grâce à une boutique en ligne, vous pourrez agrandir votre clientèle ou faire connaître votre marque à un périmètre plus large. Ainsi les irritants tels que la météo, le manque de temps ou l’absence d’un véhicule ne seront plus un frein pour votre clientèle.
-                    </x-icon-box-1>
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Des frais fixes réduits">
+                                Que ce soit pour la création de votre site web marchand ou pour sa gestion, il n’a jamais été aussi abordable d’avoir sa propre boutique en ligne.
+                            </x-icon-box-1>
+                        </div>
+                    </div>
 
-                    <x-icon-box-1 titre="Être ouvert 24/7">
-                        Votre boutique est ouverte tout le temps ! Vous permettez à vos clients de magasiner quand ils le souhaitent selon leur emploi du temps. Plus besoin de respecter des horaires fixes, vos produits sont disponibles en tout temps.
-                    </x-icon-box-1>
+                    <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Une extension de votre boutique physique">
+                                Vous avez déjà une boutique physique ? Un site e-commerce pourrait venir en complément pour vous assurer une source de revenu supplémentaire et toucher de nouveaux clients.
+                            </x-icon-box-1>
+                        </div>
+
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Plus aucune frontière">
+                                Élargissez votre clientèle en n’ayant plus aucune contrainte géographique. Vendez où vous le souhaitez et touchez des clients du monde entier.
+                            </x-icon-box-1>
+                        </div>
+                    </div>
+
+                    <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Ouvert 24/7">
+                                Plus aucune contrainte horaire ! Votre boutique en ligne reste ouverte 24/7 et vous pouvez vendre vos produits/services en tout temps.
+                            </x-icon-box-1>
+                        </div>
+
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Suivi de vos clients">
+                                En plus de proposer une expérience personnalisée à vos clients, vous pouvez mettre en place des outils marketing puissants pour fidéliser votre clientèle.
+                            </x-icon-box-1>
+                        </div>
+                    </div>
 
                 </div>
 
