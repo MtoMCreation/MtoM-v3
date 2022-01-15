@@ -64,7 +64,7 @@
 
     <div class="lg:-mt-20 pb-20">
         @if($projet->image_reponse)
-            <div class="container my-10">
+            <div class="container my-10 text-center">
                 <a href="{{ $projet->lien_site }}" target="_blank">
                     <img src="{{ asset($projet->image_reponse) }}" alt="image-prestation-client-{{$projet->client}}-{{config('app.tagline-slug')}}" class="w-full">
                 </a>
@@ -73,16 +73,31 @@
 
         <div class="max-w-[1000px] container">
 
-            <div class="container mb-20 article-content">
+            <div class="mb-20 article-content">
                 <div class="mt-10 text-xl leading- list-disc" style="max-width: 900px; margin: auto">
                     {!! $projet->reponse !!}
                 </div>
             </div>
 
+            @if($projet->temoignage)
+                <div class="mt-6 bg-gray-50 p-10 rounded-xl mb-20">
+                    <div class="italic lg:flex lg:items-center lg:space-x-6">
+                        <div class="text-mtom-orange hidden lg:block">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                            </svg>
+                        </div>
+                        <p>{!! $projet->temoignage !!}</p>
+                    </div>
+                    <div class="text-right mt-4 italic text-sm font-bold">
+                        <p>{{ $projet->nom_temoignage }}</p>
+                    </div>
+                </div>
+            @endif
+
         </div>
 
-        <div class="max-w-[900px] mx-auto">
-
+        <div class="max-w-[1000px] container">
 
             <div class=" pt-12 border-t">
                 <h4 class="font-title text-xl font-bold">Projets similaires</h4>
