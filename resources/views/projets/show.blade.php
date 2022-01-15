@@ -73,7 +73,7 @@
 
         <div class="max-w-[1000px] container">
 
-            <div class="mb-20 article-content">
+            <div class="mb-20 mt-6 article-content">
                 <div class="mt-10 text-xl leading- list-disc" style="max-width: 900px; margin: auto">
                     {!! $projet->reponse !!}
                 </div>
