@@ -14,8 +14,8 @@ class AddTemoignageToProjetsTable extends Migration
     public function up()
     {
         Schema::table('projets', function (Blueprint $table) {
-//            $table->longText('temoignage')->after('image_reponse')->nullable();
-//            $table->string('nom_temoignage')->after('temoignage')->nullable();
+            $table->longText('temoignage')->after('image_reponse')->nullable();
+            $table->string('nom_temoignage')->after('temoignage')->nullable();
         });
     }
 

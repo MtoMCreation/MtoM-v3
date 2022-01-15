@@ -14,7 +14,7 @@ class DeleteTemoignageColumnToProjetsTable extends Migration
     public function up()
     {
         Schema::table('projets', function (Blueprint $table) {
-            $table->dropColumn(['temoignage', 'nom_temoignage']);
+//            $table->dropColumn(['temoignage', 'nom_temoignage']);
         });
     }
 
