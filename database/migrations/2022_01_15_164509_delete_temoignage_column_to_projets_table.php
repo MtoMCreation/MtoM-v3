@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddTemoignageToProjetsTable extends Migration
+class DeleteTemoignageColumnToProjetsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,8 +14,7 @@ class AddTemoignageToProjetsTable extends Migration
     public function up()
     {
         Schema::table('projets', function (Blueprint $table) {
-//            $table->longText('temoignage')->after('image_reponse')->nullable();
-//            $table->string('nom_temoignage')->after('temoignage')->nullable();
+            $table->dropColumn(['temoignage', 'nom_temoignage']);
         });
     }
 
