@@ -184,7 +184,7 @@
 
         <div class="w-full">
             <label for="temoignage" class="block font-bold text-base mb-1">Témoignage</label>
-            <textarea name="reponse" id="reponse" rows="5" class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2">{{ isset($projet->temoignage) ? $projet->temoignage : old('temoignage') }}</textarea>
+            <textarea name="temoignage" id="temoignage" rows="5" class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2">{{ isset($projet->temoignage) ? $projet->temoignage : old('temoignage') }}</textarea>
             @error('temoignage')
             <div class="text-base font-bold text-red-500">
                 {{ $message }}

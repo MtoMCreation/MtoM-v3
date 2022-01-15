@@ -51,6 +51,7 @@ class ProjetController extends Controller
      */
     public function update(Request $request, Projet $projet): RedirectResponse
     {
+//        dd($request->all());
         $this->projetUpdate($request, $projet);
         return back()->with('success', 'Projet modifié');
     }
