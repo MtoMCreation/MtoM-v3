@@ -14,7 +14,7 @@ p{
 }
 
 .page-section-1{
-    @apply py-28 lg:py-56;
+    @apply py-28 lg:py-[190px];
 }
 
 .page-section-2{

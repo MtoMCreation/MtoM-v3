@@ -62,25 +62,33 @@
 
                         <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
 
-                            <x-icon-box-1 titre="Être présents sur les moteurs de recherche">
-                                Avant de prendre contact avec vous, vos futurs clients voudront en savoir plus sur votre entreprise, sur vos clients et sur vos services. Il est donc important d’être visible pour ne pas céder de place à la concurrence.
-                            </x-icon-box-1>
+                            <div class="lg:w-1/2">
+                                <x-icon-box-1 titre="Être présents sur les moteurs de recherche">
+                                    Avant de prendre contact avec vous, vos futurs clients voudront en savoir plus sur votre entreprise, sur vos clients et sur vos services. Il est donc important d’être visible pour ne pas céder de place à la concurrence.
+                                </x-icon-box-1>
+                            </div>
 
-                            <x-icon-box-1 titre="Faire bonne impression dès le premier clic">
-                                Le site web est souvent le point d’entrée pour connaître une société. Le contenu intégré doit être à jour, donner la bonne information au bon moment et être tendance pour capter l’attention.
-                            </x-icon-box-1>
+                            <div class="lg:w-1/2">
+                                <x-icon-box-1 titre="Faire bonne impression dès le premier clic">
+                                    Le site web est souvent le point d’entrée pour connaître une société. Le contenu intégré doit être à jour, donner la bonne information au bon moment et être tendance pour capter l’attention.
+                                </x-icon-box-1>
+                            </div>
 
                         </div>
 
                         <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
 
-                            <x-icon-box-1 titre="Acquérir de nouveaux clients">
-                                Une fois sur votre site web, le client doit se sentir séduit, captivé, étonné. Même si la prise de contact est encore offline, le rôle de votre site web est de convertir vos prospects.
-                            </x-icon-box-1>
+                            <div class="lg:w-1/2">
+                                <x-icon-box-1 titre="Acquérir de nouveaux clients">
+                                    Une fois sur votre site web, le client doit se sentir séduit, captivé, étonné. Même si la prise de contact est encore offline, le rôle de votre site web est de convertir vos prospects.
+                                </x-icon-box-1>
+                            </div>
 
-                            <x-icon-box-1 titre="Montrer votre expertise">
-                                Grâce à votre site web, vous pourrez mettre en avant vos services, vos valeurs et vos ambitions, votre savoir-faire et votre professionnalisme.
-                            </x-icon-box-1>
+                            <div class="lg:w-1/2">
+                                <x-icon-box-1 titre="Montrer votre expertise">
+                                    Grâce à votre site web, vous pourrez mettre en avant vos services, vos valeurs et vos ambitions, votre savoir-faire et votre professionnalisme.
+                                </x-icon-box-1>
+                            </div>
 
                         </div>
 

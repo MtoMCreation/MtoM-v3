@@ -62,7 +62,8 @@
 
             <div class="lg:flex lg:space-x-8 space-y-8 lg:space-y-0 mt-20">
 
-                <a href="{{ route('site-web') }}" class="block lg:w-1/3 py-10 text-center bg-mtom-blue-2 border-4 transform hover:-translate-y-2 hover:scale-[1.02] transition duration-500 border-mtom-gray hover:bg-mtom-dark-blue hover:border-white transition rounded-xl mt-4 md:mt-0">
+                <a href="{{ route('site-web') }}"
+                   class="block lg:w-1/3 py-10 text-center bg-mtom-blue/50 border-4 transform hover:-translate-y-2 hover:scale-[1.02] transition duration-500 border-mtom-gray hover:bg-mtom-blue-2 hover:border-white transition rounded-xl mt-4 md:mt-0">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-full text-mtom-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
@@ -73,7 +74,8 @@
                     </h3>
                 </a>
 
-                <a href="{{ route('publicite-ciblee') }}" class="block lg:w-1/3 py-10 text-center bg-mtom-blue-2 border-4 transform hover:-translate-y-2 hover:scale-[1.02] transition duration-500 border-mtom-gray hover:bg-mtom-dark-blue hover:border-white transition rounded-xl mt-4 md:mt-0">
+                <a href="{{ route('publicite-ciblee') }}"
+                   class="block lg:w-1/3 py-10 text-center bg-mtom-blue/50 border-4 transform hover:-translate-y-2 hover:scale-[1.02] transition duration-500 border-mtom-gray hover:bg-mtom-blue-2 hover:border-white transition rounded-xl mt-4 md:mt-0">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-full text-mtom-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
                     </svg>
@@ -84,7 +86,8 @@
                     </h3>
                 </a>
 
-                <a href="{{ route('reseaux-sociaux') }}" class="block lg:w-1/3 py-10 text-center bg-mtom-blue-2 border-4 transform hover:-translate-y-2 hover:scale-[1.032 transition duration-500 border-mtom-gray hover:bg-mtom-dark-blue hover:border-white transition rounded-xl mt-4 md:mt-0">
+                <a href="{{ route('reseaux-sociaux') }}"
+                   class="block lg:w-1/3 py-10 text-center bg-mtom-blue/50 border-4 transform hover:-translate-y-2 hover:scale-[1.032 transition duration-500 border-mtom-gray hover:bg-mtom-blue-2 hover:border-white transition rounded-xl mt-4 md:mt-0">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-full text-mtom-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
                     </svg>

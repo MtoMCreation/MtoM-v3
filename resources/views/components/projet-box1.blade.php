@@ -5,7 +5,8 @@
             @if($projet->description_prestation)
                 <h4 class="description absolute top-3 right-3 text-sm bg-white/80 z-50 px-4 py-1 rounded-full font-bold">{{ $projet->description_prestation }}</h4>
             @endif
-            <img src="{{ asset($projet->image) }}" class="rounded" alt="image projet-{{ Str::slug($projet->client) }}-{{ config('app.tagline') }}">
+            <img src="{{ asset($projet->image) }}"  class="rounded"
+                 alt="image projet-{{ Str::slug($projet->client) }}-{{ config('app.tagline') }}">
             <div class="flex items-end justify-between mt-4">
                 <h3 class="font-bold font-title text-xl max-w-[325px]">{{ $projet->client }}</h3>
                 <p class="lire-article text-xs font-title font-bold uppercase text-right inline-flex">Voir le projet</p>
