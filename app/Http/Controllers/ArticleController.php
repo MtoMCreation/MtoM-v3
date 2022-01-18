@@ -9,6 +9,7 @@ use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Intervention\Image\Facades\Image;
@@ -50,7 +51,10 @@ class ArticleController extends Controller
         if ($article->publie() or (!$article->publie() and Auth::user())) {
             return view('articles.show', [
             'article' => $article,
-            'articles_similaires' => Article::all()->where('id', '!=', $article->id)->random(2),
+            'articles_similaires' => Article::all()
+                ->where('id', '!=', $article->id)
+                ->where('etat_id', 2)
+                ->random(2),
         ]);
         } else {
             return back();
