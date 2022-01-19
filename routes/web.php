@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
+// SITEMAP
 Route::get('/sitemap_index.xml', [SiteMapController::class, 'index'])->name('sitemap');
 
 // PAGES

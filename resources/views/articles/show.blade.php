@@ -23,8 +23,28 @@
                 {{ $article->titre }}
             </h1>
 
-            <h6 class="mt-8 font-bold text-xs border-b border-gray-100 pb-4">Publié le {{ $article->date_publication }}</h6>
-            <div class="mt-16 article-content leading-normal text-lg+">{!! $article->contenu !!}</div>
+            <div class="sm:flex items-center sm:space-x-10 space-y-3 sm:space-y-0 mt-8 font-bold text-xs border-b border-gray-100 pb-4 text-gray-500">
+                <div class="flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <h6 class="">Publié le {{ $article->date_publication }}</h6>
+                </div>
+                @if($article->temps_lecture)
+                    <div class="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <h6 class="">Temps de lecture : {{ $article->temps_lecture }} minutes</h6>
+                    </div>
+                @endif
+
+
+            </div>
+
+            <div class="mt-16 article-content leading-normal text-lg+">
+                {!! $article->contenu !!}
+            </div>
         </div>
 
         <div class="articles-similaires mt-10 border-t-2 border-gray-100">

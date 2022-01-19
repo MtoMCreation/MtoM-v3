@@ -109,15 +109,16 @@ class ArticleController extends Controller
     private function validateRequest(Request $request)
     {
         return $request->validate([
-            'etat_id' => 'required|integer',
-            'titre' => 'required',
-            'date_publication' => 'required',
-            'date_publication_order' => 'required',
-            'meta_titre' => 'required',
-            'meta_description' => 'required',
-            'image' => 'image|mimes:jpg,jpeg,png|nullable',
-            'description' => 'required',
-            'contenu' => 'required',
+            'etat_id'                   => 'required|integer',
+            'titre'                     => 'required',
+            'date_publication'          => 'required',
+            'date_publication_order'    => 'required',
+            'meta_titre'                => 'required',
+            'meta_description'          => 'required',
+            'image'                     => 'image|mimes:jpg,jpeg,png|nullable',
+            'description'               => 'required',
+            'contenu'                   => 'required',
+            'temps_lecture'             => 'nullable|integer'
         ]);
     }
 
