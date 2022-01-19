@@ -43,14 +43,14 @@
 
         </div>
 
-        <!-- OBJECTIFS -->
+        <!-- AVANTAGES -->
         <div class="image-fond-texture min-h-screen py-20 flex items-center shadow-xl">
             <div class="container">
 
                 <div class="">
                     <h4 class="sub-title-2 text-mtom-dark-blue">Pourquoi</h4>
                     <h2 class="title-2 text-white">
-                        Les objectifs de votre <span class="text-mtom-orange">site web</span>
+                        Les avantages d'une <span class="text-mtom-orange">boutique en ligne</span>
                     </h2>
                 </div>
 
