@@ -118,20 +118,20 @@
     </url>
 
 {{--    PROJETS--}}
-    @foreach ($projets as $projet)
+    @foreach ($projets as $n => $projet)
         <url>
             <loc>{{ route('projet.show', $projet) }}</loc>
-            <lastmod>{{ $date->subWeek() }}</lastmod>
+            <lastmod>{{ \Illuminate\Support\Carbon::today()->subWeek($n)->toDateString() }}</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
         </url>
     @endforeach
 
 {{--    ARTICLES --}}
-    @foreach ($articles as $article)
+    @foreach ($articles as $n => $article)
         <url>
             <loc>{{ route('article.show', $article) }}</loc>
-            <lastmod>{{ $date->subWeek() }}</lastmod>
+            <lastmod>{{ \Illuminate\Support\Carbon::today()->subWeek($n)->toDateString() }}</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
         </url>

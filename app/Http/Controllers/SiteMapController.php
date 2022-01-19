@@ -12,11 +12,10 @@ class SiteMapController extends Controller
 {
     public function index(Article $articles, Projet $projets)
     {
-        $date = Carbon::now();
         return response()->view('sitemap', [
             'articles' => $articles->articlesPublie()->get(),
             'projets' => $projets->projetsPublie()->get(),
-            'date' => $date,
+            'date' => Carbon::today()->toDateString(),
         ])->header('Content-Type', 'text/xml');
     }
 }

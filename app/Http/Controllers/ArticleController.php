@@ -117,7 +117,6 @@ class ArticleController extends Controller
             'image'                     => 'image|mimes:jpg,jpeg,png|nullable',
             'description'               => 'required',
             'contenu'                   => 'required',
-//            'temps_lecture'             => 'nullable|integer'
         ]);
         $data['temps_lecture'] = $this->tempsLecture($request->get('contenu'));
         return $data;
