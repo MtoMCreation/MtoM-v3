@@ -38,8 +38,8 @@
     <meta name="description" content="@yield('meta-description', 'Création de site web et stratégies numériques à Montréal')">
 
     <meta property="og:url" content="{{ \Illuminate\Support\Facades\URL::current() }}" />
-    <meta property="og:title" content="@yield('titre', config('app.name'))" />
-    <meta property="og:description" content="@yield('meta-description', 'Création de site web et stratégies numériques à Montréal')" />
+    <meta property="og:title" content="@yield('title', config('app.name'))" />
+    <meta property="og:description" content="@yield('meta-description', 'Création de site web et stratégie numérique à Montréal')" />
     <meta property="og:image" content="@yield('og-meta-image', asset('storage/img/logos/logo-mtom.png'))" />
 
     <title>@yield('title', config('app.name'))</title>
