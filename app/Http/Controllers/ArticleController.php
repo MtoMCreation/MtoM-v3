@@ -125,7 +125,7 @@ class ArticleController extends Controller
 
     private function tempsLecture($contenu): float
     {
-        return round( (Str::wordCount($contenu) / 250) + 1, 0, PHP_ROUND_HALF_UP );
+        return round( (Str::wordCount($contenu) / 250), 0, PHP_ROUND_HALF_UP );
     }
 
 
