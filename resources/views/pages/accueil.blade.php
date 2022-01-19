@@ -6,7 +6,7 @@
 @section('meta-description')Création de site web professionnel sur-mesure. Spécialisé dans les sites web vitrines et boutiques en ligne. Experts en conception de sites web et stratégies numériques.
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/building-websites.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/building-websites.svg') }}
 @endsection
 
     <!-- Hero page accueil -->
