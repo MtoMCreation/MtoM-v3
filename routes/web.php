@@ -8,6 +8,7 @@ use App\Http\Controllers\MediaController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ProjetController;
 use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\SiteMapController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 | Web Routes
 |--------------------------------------------------------------------------
 */
+
+Route::get('/sitemap.xml', [SiteMapController::class, 'index'])->name('sitemap');
 
 // PAGES
 Route::get('/', [PagesController::class, 'accueil'])->name('accueil');
