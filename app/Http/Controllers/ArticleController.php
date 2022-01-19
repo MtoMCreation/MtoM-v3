@@ -48,13 +48,11 @@ class ArticleController extends Controller
 
     public function show(Article $article)
     {
+        $articles = new Article();
         if ($article->publie() or (!$article->publie() and Auth::user())) {
             return view('articles.show', [
             'article' => $article,
-            'articles_similaires' => Article::all()
-                ->where('id', '!=', $article->id)
-                ->where('etat_id', 2)
-                ->random(2),
+            'articles_similaires' => $articles->articlesPublie()->where('etat_id', 2)->get()->random(2),
         ]);
         } else {
             return back();

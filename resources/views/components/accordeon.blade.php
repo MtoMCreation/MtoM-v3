@@ -1,6 +1,7 @@
 <div x-data="{ open: false }">
     <div @click="open = !open"
-         :class="open ? 'bg-mtom-orange' : ''" class="flex justify-between px-4 py-4 bg-gray-50 rounded hover:bg-mtom-orange transition cursor-pointer hover:shadow">
+         :class="open ? 'bg-gray-200' : 'bg-gray-50'"
+         class="flex justify-between px-4 py-4 rounded hover:bg-mtom-orange transition cursor-pointer hover:shadow">
         <h5 class="font-bold">
             {{ $titre ?? 'titre' }}
         </h5>
@@ -14,7 +15,14 @@
         </div>
     </div>
 
-    <div class="mt-3" x-show="open">
+    <div class="mt-3"
+         x-show="open"
+         x-transition:enter="transition ease-out duration-300"
+         x-transition:enter-start="transform opacity-0 scale-25"
+         x-transition:enter-end="transform opacity-100 scale-100"
+         x-transition:leave="transition ease-in duration-75"
+         x-transition:leave-start="transform opacity-100 scale-100"
+         x-transition:leave-end="transform opacity-0 scale-25">
         <p>
             {{ $message ?? 'message' }}
         </p>

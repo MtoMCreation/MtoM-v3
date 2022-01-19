@@ -11,7 +11,14 @@
             class="font-title font-bold text-xl cursor-pointer block"
             :class="open ? 'text-mtom-orange' : ''">
             {{ $titre }}</h4>
-        <p x-show="open" class="mt-2 text-gray-200">
+        <p x-show="open"
+           x-transition:enter="transition ease-out duration-300"
+           x-transition:enter-start="transform opacity-0 scale-25"
+           x-transition:enter-end="transform opacity-100 scale-100"
+           x-transition:leave="transition ease-in duration-75"
+           x-transition:leave-start="transform opacity-100 scale-100"
+           x-transition:leave-end="transform opacity-0 scale-25"
+           class="mt-2 text-gray-200">
             {{ $slot }}
         </p>
     </div>
