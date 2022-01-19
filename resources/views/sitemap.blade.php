@@ -121,7 +121,7 @@
     @foreach ($projets as $projet)
         <url>
             <loc>{{ route('projet.show', $projet) }}</loc>
-            <lastmod>{{ $projet->created_at }}</lastmod>
+            <lastmod>{{ $date->subWeek() }}</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
         </url>
@@ -131,7 +131,7 @@
     @foreach ($articles as $article)
         <url>
             <loc>{{ route('article.show', $article) }}</loc>
-            <lastmod>{{ $article->created_at }}</lastmod>
+            <lastmod>{{ $date->subWeek() }}</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
         </url>
