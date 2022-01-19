@@ -84,7 +84,6 @@ class ArticleController extends Controller
             $data['image'] = 'storage/'.$image;
             Storage::disk('public')->delete($article->image);
         }
-//        $data['slug'] = Str::slug($data['titre']).'-'.$article->id;
         $data['slug'] = Str::slug($data['titre']);
         $article->update($data);
         return back()->with('success', 'article modifié');
@@ -108,7 +107,7 @@ class ArticleController extends Controller
 
     private function validateRequest(Request $request)
     {
-        return $request->validate([
+        $data = $request->validate([
             'etat_id'                   => 'required|integer',
             'titre'                     => 'required',
             'date_publication'          => 'required',
@@ -118,8 +117,15 @@ class ArticleController extends Controller
             'image'                     => 'image|mimes:jpg,jpeg,png|nullable',
             'description'               => 'required',
             'contenu'                   => 'required',
-            'temps_lecture'             => 'nullable|integer'
+//            'temps_lecture'             => 'nullable|integer'
         ]);
+        $data['temps_lecture'] = $this->tempsLecture($request->get('contenu'));
+        return $data;
+    }
+
+    private function tempsLecture($contenu): float
+    {
+        return round( (Str::wordCount($contenu) / 250) + 1, 0, PHP_ROUND_HALF_UP );
     }
 
 

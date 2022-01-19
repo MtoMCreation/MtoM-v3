@@ -13,21 +13,21 @@
 </div>
 
 <div class="md:flex space-y-10 md:space-y-0 md:space-x-10">
-    <div class="md:w-2/3">
-        <div class="w-full">
-            <label for="temps_lecture" class="block font-bold text-base mb-1">Temps de lecture en minutes</label>
-            <input type="text" name="temps_lecture" id="temps_lecture"
-                   class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2"
-                   value="{{ isset($article->temps_lecture) ? $article->temps_lecture : old('temps_lecture') }}">
-            @error('temps_lecture')
-            <div class="text-base font-bold text-red-500">
-                {{ $message }}
-            </div>
-            @enderror
-        </div>
-    </div>
+{{--    <div class="md:w-2/3">--}}
+{{--        <div class="w-full">--}}
+{{--            <label for="temps_lecture" class="block font-bold text-base mb-1">Temps de lecture en minutes</label>--}}
+{{--            <input type="text" name="temps_lecture" id="temps_lecture"--}}
+{{--                   class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2"--}}
+{{--                   value="{{ isset($article->temps_lecture) ? $article->temps_lecture : old('temps_lecture') }}">--}}
+{{--            @error('temps_lecture')--}}
+{{--            <div class="text-base font-bold text-red-500">--}}
+{{--                {{ $message }}--}}
+{{--            </div>--}}
+{{--            @enderror--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
-    <div class="md:w-1/3">
+    <div class="w-full">
         <label for="etat_id" class="block font-bold text-base mb-1">Etat</label>
         <select name="etat_id" id="etat_id"
                 class="w-full p-2 mt-1 {{ isset($article) ? ($article->publie() ? 'bg-green-100' : 'bg-red-100') : '' }} rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2">

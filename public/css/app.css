@@ -2508,6 +2508,10 @@ label .custom-label {
     width: 66.666667%;
   }
 
+  .md\:w-1 {
+    width: 0.25rem;
+  }
+
   .md\:transform {
     transform: var(--tw-transform);
   }
