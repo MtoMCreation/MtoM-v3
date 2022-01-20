@@ -21,21 +21,21 @@ class ServicesController extends Controller
     public function siteVitrine(Projet $projets)
     {
         return view('pages.services.site-vitrine', [
-            'projets' => $projets->sitesVitrines()->get()->random(3),
+            'projets' => $projets->sitesVitrines()->where('site_reference', true)->get()->random(3),
         ]);
     }
 
     public function siteMarchand(Projet $projets)
     {
         return view('pages.services.site-marchand', [
-            'projets' => $projets->sitesMarchands()->get()->random(3),
+            'projets' => $projets->sitesMarchands()->where('site_reference', true)->get()->random(3),
         ]);
     }
 
     public function siteOnePage(Projet $projets)
     {
         return view('pages.services.site-one-page', [
-            'projets' => $projets->sitesOnePage()->get()->random(3),
+            'projets' => $projets->sitesOnePage()->where('site_reference', true)->get()->random(3),
         ]);
     }
 

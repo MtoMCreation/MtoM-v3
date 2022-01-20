@@ -16,8 +16,14 @@
                     <div class="text-sm text-gray-500">
                         {{ $projet->date_publication }}
                     </div>
-                    <div class="text-xs text-gray-400">
-                        {{ $projet->date_publication_order }}
+                    <div class="text-xs text-gray-400 flex items-center space-x-2">
+                        <span>{{ $projet->date_publication_order }}</span>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             class="h-3 {{ $projet->site_reference ? 'text-green-400' : 'text-red-400' }}"
+                             viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        </svg>
+
                     </div>
                 </div>
             </div>
@@ -31,7 +37,7 @@
             </div>
         </td>
         <td class="px-6 py-4 whitespace-nowrap">
-            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full {{ $projet->etat->id === 1 ? 'bg-red-100 text-red-800' : 'bg-green-100 text-green-800' }}">
+            <span class="px-3 inline-flex text-xs leading-5 font-semibold rounded-full {{ $projet->etat->id === 1 ? 'bg-red-100 text-red-800' : 'bg-green-100 text-green-800' }}">
                 {{ $projet->etat->nom }}
             </span>
         </td>

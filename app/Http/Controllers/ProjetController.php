@@ -37,6 +37,7 @@ class ProjetController extends Controller
      */
     public function edit(Projet $projet)
     {
+//        dd($projet->site_reference);
         return view('projets.edit', [
             'projet' => $projet,
             'etats' => Etat::all(),
@@ -51,6 +52,7 @@ class ProjetController extends Controller
      */
     public function update(Request $request, Projet $projet): RedirectResponse
     {
+//        dd($request->all());
         $this->projetUpdate($request, $projet);
         return back()->with('success', 'Projet modifié');
     }
@@ -66,6 +68,7 @@ class ProjetController extends Controller
             'projets_similaires' => Projet::with('categories')->get()
                 ->where('id', '!=', $projet->id)
                 ->where('etat_id', 2)
+                ->where('site_reference', true)
                 ->random(2),
         ]);
     }
@@ -101,7 +104,7 @@ class ProjetController extends Controller
      */
     private function validateRequest(Request $request): array
     {
-        return $request->validate([
+        $data = $request->validate([
             'etat_id'                   => 'required|integer',
             'client'                    => 'required',
             'description_prestation'    => 'nullable|string',
@@ -116,8 +119,15 @@ class ProjetController extends Controller
             'image_reponse'             => 'image|mimes:jpg,jpeg,png|nullable',
             'reponse'                   => 'required',
             'temoignage'                => 'nullable|string',
-            'nom_temoignage'            => 'nullable|string'
+            'nom_temoignage'            => 'nullable|string',
+            'site_reference'            => 'boolean',
         ]);
+
+        if (!$request->has('site_reference')) {
+            $data['site_reference'] = 0;
+        }
+
+        return $data;
     }
 
 
@@ -129,6 +139,7 @@ class ProjetController extends Controller
     {
         $data = $this->validateRequest($request);
         $data['slug'] = Str::slug($data['client']);
+//        dd($data);
 
         if ($request->has('logo')) {
             $logo = $request->file('logo')->store('img/projets/logos', 'public');

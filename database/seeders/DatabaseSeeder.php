@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class
         ]);
 
-        $projets = Projet::all()->sortByDesc('date_publication_order')->take(3);
+        $projets = Projet::all()->sortByDesc('date_publication_order')->take(5);
         foreach ($projets as $projet) {
             $projet->categories()->sync([1, 2, 3]);
         }

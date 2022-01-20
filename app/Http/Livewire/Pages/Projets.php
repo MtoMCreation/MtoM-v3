@@ -12,7 +12,11 @@ class Projets extends Component
     public function render(Projet $projets)
     {
         return view('livewire.pages.projets', [
-            'projets' => $projets->projetsPublie()->where('client', 'like', '%'.$this->search.'%')->orderBy('date_publication_order', 'desc')->get(),
+            'projets' => $projets->projetsPublie()
+                ->where('client', 'like', '%'.$this->search.'%')
+                ->orderBy('site_reference', 'desc')
+                ->orderBy('date_publication_order', 'desc')
+                ->get(),
         ]);
     }
 }

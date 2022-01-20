@@ -77,22 +77,9 @@
     </div>
 </div>
 
-{{--<div class="">--}}
-{{--    <div class="w-full">--}}
-{{--        <label for="meta_titre" class="block font-bold text-base mb-1">Meta titre</label>--}}
-{{--        <input type="text" name="meta_titre" id="meta_titre"--}}
-{{--               class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2"--}}
-{{--               value="{{ isset($article->meta_titre) ? $article->meta_titre : old('meta_titre') }}">--}}
-{{--        @error('meta_titre')--}}
-{{--        <div class="text-base font-bold text-red-500">--}}
-{{--            {{ $message }}--}}
-{{--        </div>--}}
-{{--        @enderror--}}
-{{--    </div>--}}
-{{--</div>--}}
-
 <div class="w-full"
-     x-data="{meta_titre: '{{ isset($article->meta_titre) ? $article->meta_titre : old('meta_titre') }}', limit: $el.dataset.limit,
+     x-data="{meta_titre: '{{ isset($article->meta_titre) ? $article->meta_titre : old('meta_titre') }}',
+            limit: $el.dataset.limit,
              get remaining() {
                 return this.limit - this.meta_titre.length
             }}" data-limit="60">

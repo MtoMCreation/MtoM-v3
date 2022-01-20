@@ -9,6 +9,7 @@ use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ProjetController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\SiteMapController;
+use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,7 +29,7 @@ Route::get('/blogue', [PagesController::class, 'blogue'])->name('blogue');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/presenter-un-projet', [PagesController::class, 'presenterProjet'])->name('presenter-projet');
 
-Route::get('test', [PagesController::class, 'testPage'])->name('page-test');
+Route::get('test', [TestController::class, 'index'])->name('page-test');
 
 // FORMULAIRES
 Route::name('form.')->group(function () {

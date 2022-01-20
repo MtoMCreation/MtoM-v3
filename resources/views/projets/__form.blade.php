@@ -209,6 +209,7 @@
     </div>
 
     <div class="w-1/4">
+
         <div class="">
             <div class="w-full">
                 <label for="etat_id" class="block font-bold text-base mb-1">Etat</label>
@@ -233,8 +234,19 @@
             </div>
         </div>
 
+        <div class="border-b-2 border-t-2 mt-5">
+            <div class="w-full mt-5 mb-5">
+                    <div class="w-full">
+                        <input type="checkbox" name="site_reference"
+                               value="1"
+                               class="accent-mtom-orange" @if(isset($projet)) {{ $projet->site_reference ? 'checked' : ' ' }} @endif>
+                        <label for="categories" class="text-base mb-1">Site référence</label>
+                    </div>
+            </div>
+        </div>
+
         <div class="">
-            <div class="w-full mt-10 mb-5">
+            <div class="w-full mt-5 mb-5">
                 <span class="block font-bold text-base mb-1">Catégories</span>
                 @foreach($categories as $categorie)
                     <div class="w-full">

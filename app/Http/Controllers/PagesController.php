@@ -18,14 +18,12 @@ class PagesController extends Controller
 
     public function accueil(Projet $projets, Article $articles)
     {
-//        $portfolio = $projets->projetsPublie()->get();
         return view('pages.accueil', [
-            'derniers_sites' => $projets->siteWeb()->get()->sortByDesc('date_publication_order')->take(3),
+            'derniers_sites' => $projets->siteWeb()->get()->sortByDesc('site_reference')->sortByDesc('date_publication_order')->take(3),
             'projetsLG' => $projets->projetsPublie()->get()->sortByDesc('date_publication_order'),
             'articles' => $articles->articlesPublie()->get()->sortByDesc('date_publication_order')->take(3),
         ]);
     }
-
 
 
     public function projets()
