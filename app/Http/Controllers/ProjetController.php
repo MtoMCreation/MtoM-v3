@@ -51,7 +51,6 @@ class ProjetController extends Controller
      */
     public function update(Request $request, Projet $projet): RedirectResponse
     {
-//        dd($request->all());
         $this->projetUpdate($request, $projet);
         return back()->with('success', 'Projet modifié');
     }
@@ -129,7 +128,6 @@ class ProjetController extends Controller
     private function projetUpdate(Request $request, Projet $projet)
     {
         $data = $this->validateRequest($request);
-//        $data['slug'] = Str::slug($data['client']).$projet->id;
         $data['slug'] = Str::slug($data['client']);
 
         if ($request->has('logo')) {
@@ -174,13 +172,12 @@ class ProjetController extends Controller
         }
 
         if ($request->has('image_reponse')) {
-            $image = $request->file('image')->store('img/projets/img', 'public');
-            $data['image'] = 'storage/'.$image;
+            $image = $request->file('image_reponse')->store('img/projets/img', 'public');
+            $data['image_reponse'] = 'storage/'.$image;
         }
         $data['slug'] = Str::slug($data['client']);
         $projet = Projet::create($data);
         $projet->categories()->sync($request['categories']);
-//        $projet->slug = $data['slug'].'-'.$projet->id;
         $projet->slug = $data['slug'];
         $projet->save();
     }

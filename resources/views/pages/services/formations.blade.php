@@ -137,7 +137,8 @@
                                 Pour quelle formations souhaitez-vous faire une demande
                             </label>
 {{--                            <input class="custom-input" type="text" name="formation" id="formation"  placeholder="">--}}
-                            <select name="formation" id="formation" class="custom-input">
+                            <select name="formation" id="formation"
+                                    class="w-full p-2 mt-1 bg-white rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2">
                                 <option value="La gestion des réseaux sociaux">
                                     La gestion des réseaux sociaux
                                 </option>
