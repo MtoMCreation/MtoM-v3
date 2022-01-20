@@ -26,8 +26,39 @@
 {{--            @enderror--}}
 {{--        </div>--}}
 {{--    </div>--}}
+</div>
 
-    <div class="w-full">
+
+<div class="md:flex space-y-10 md:space-y-0 md:space-x-10">
+    <div class="md:w-1/3">
+        <div class="w-full">
+            <label for="date_publication" class="block font-bold text-base mb-1">Date de publication</label>
+            <input type="text" name="date_publication" id="date_publication"
+                   class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2"
+                   value="{{ isset($article->date_publication) ? $article->date_publication : old('date_publication') }}">
+            @error('date_publication')
+            <div class="text-base font-bold text-red-500">
+                {{ $message }}
+            </div>
+            @enderror
+        </div>
+    </div>
+
+    <div class="md:w-1/3">
+        <div class="w-full">
+            <label for="date_publication_order" class="block font-bold text-base mb-1">Date de publication (ordre d'apparition)</label>
+            <input type="date" name="date_publication_order" id="date_publication_order"
+                   class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2"
+                   value="{{ isset($article->date_publication_order) ? $article->date_publication_order : old('date_publication_order') }}">
+            @error('date_publication_order')
+            <div class="text-base font-bold text-red-500">
+                {{ $message }}
+            </div>
+            @enderror
+        </div>
+    </div>
+
+    <div class="w-1/3">
         <label for="etat_id" class="block font-bold text-base mb-1">Etat</label>
         <select name="etat_id" id="etat_id"
                 class="w-full p-2 mt-1 {{ isset($article) ? ($article->publie() ? 'bg-green-100' : 'bg-red-100') : '' }} rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2">
@@ -43,37 +74,6 @@
             {{ $message }}
         </div>
         @enderror
-    </div>
-</div>
-
-
-<div class="md:flex space-y-10 md:space-y-0 md:space-x-10">
-    <div class="md:w-1/2">
-        <div class="w-full">
-            <label for="date_publication" class="block font-bold text-base mb-1">Date de publication</label>
-            <input type="text" name="date_publication" id="date_publication"
-                   class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2"
-                   value="{{ isset($article->date_publication) ? $article->date_publication : old('date_publication') }}">
-            @error('date_publication')
-            <div class="text-base font-bold text-red-500">
-                {{ $message }}
-            </div>
-            @enderror
-        </div>
-    </div>
-
-    <div class="md:w-1/2">
-        <div class="w-full">
-            <label for="date_publication_order" class="block font-bold text-base mb-1">Date de publication (ordre d'apparition)</label>
-            <input type="date" name="date_publication_order" id="date_publication_order"
-                   class="p-2 mt-1 rounded w-full focus:outline-none border-b-2 focus:border-mtom-orange focus:border-b-2"
-                   value="{{ isset($article->date_publication_order) ? $article->date_publication_order : old('date_publication_order') }}">
-            @error('date_publication_order')
-            <div class="text-base font-bold text-red-500">
-                {{ $message }}
-            </div>
-            @enderror
-        </div>
     </div>
 </div>
 
