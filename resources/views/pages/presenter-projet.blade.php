@@ -51,6 +51,7 @@
                                 <option value="Une entreprise">Une entreprise</option>
                                 <option value="Une travailleur autonome">Une travailleur autonome</option>
                                 <option value="Un particulier">Un particulier</option>
+                                <option value="OBNL / COOP">Une OBNL / COOP</option>
                             </select>
                             @error('type')
                                 <span class="form-error-span">{{ $message }}</span>
