@@ -112,9 +112,9 @@
         <div class="container text-center">
 
             <div class="text-center">
-                <h4 class="sub-title-2 text-gray-50">Pourquoi</h4>
+                <h4 class="sub-title-2 text-gray-50">?</h4>
                 <h2 class="title-2 text-mtom-blue">
-                    Notre <span class="text-mtom-orange">mission</span>
+                    Qui <span class="text-mtom-orange">nous sommes</span>
                 </h2>
             </div>
 
@@ -123,9 +123,11 @@
                 <a href="{{ route('optimisation-seo') }}">optimisation du référencement naturel SEO</a>, <a href="{{ route('referencement-payant') }}">campagnes Google Ads</a> et <a href="{{ route('publicite-ciblee') }}">Facebook Ads</a>…
                 <br>
                 <br>
-                <b>Nous sommes convaincus que notre vraie valeur ajoutée est autant dans l'accompagnement, le conseil et la confiance que vous nous accordez que dans les solutions techniques que nous vous proposons.</b>
-                <br>
-                Payez uniquement pour ce dont vous avez besoin, telle est notre devise.
+                <b>Nous sommes convaincus que notre vraie valeur ajoutée est autant dans l'accompagnement, le conseil et la confiance que vous nous accordez que dans les solutions techniques
+                    <br>que nous vous proposons.</b>
+{{--                <br>--}}
+{{--                <br>--}}
+{{--                <b>Payez uniquement pour ce dont vous avez besoin, telle est notre devise.</b>--}}
             </p>
 
             <x-bouton-icon :lien="route('apropos')">En savoir plus</x-bouton-icon>
@@ -157,10 +159,10 @@
                 </div>
 
                 <p class="mt-5">
-                    Véritable outil de communication, le site web véhicule l’image de votre entreprise auprès de vos clients, vos fournisseurs et vos partenaires. Indispensable dans le développement de votre activité, <a href="{{ route('site-web') }}" class="font-bold">nous vous créons site web professionnel sur mesure</a> qui répond à tous vos besoins.
+                    Véritable outil de communication, votre site web véhicule l’image de votre entreprise auprès de vos clients, vos fournisseurs et vos partenaires. Indispensable dans le développement de votre activité, <a href="{{ route('site-web') }}" class="font-bold">nous vous créons site web professionnel sur mesure</a> qui vous appartient et répond à tous vos besoins.
                 </p>
 
-                <x-bouton-icon :lien="route('site-vitrine')" class="mt-5">En savoir plus</x-bouton-icon>
+                <x-bouton-icon :lien="route('site-vitrine')" class="mt-5">Création de site web</x-bouton-icon>
             </div>
         </div>
 
@@ -208,7 +210,7 @@
                 <p class="my-10">
                     Nous proposons des formations pour <b>vous accompagner dans le développement de vos compétences</b>. Que ce soit pour la gestion des réseaux sociaux, pour en savoir plus sur la création d'un site internet, l'élaboration d'une stratégie de web ou la mise en place de campagnes de communication efficace, nous saurons répondre à toutes vos questions.
                 </p>
-                <x-bouton-icon :lien="route('formations')">Découvrir nos formations</x-bouton-icon>
+                <x-bouton-icon :lien="route('formations')">Voir nos formations</x-bouton-icon>
             </div>
 
             <div class="lg:w-4/12 hidden lg:block">
