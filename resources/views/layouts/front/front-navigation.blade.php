@@ -37,7 +37,7 @@
             </div>
             <div class="right-side flex items-center space-x-6">
                 <a href="{{ route('presenter-projet') }}" class="hidden md:block project-button px-8 py-2 font-bold font-title uppercase bg-mtom-orange text-mtom-blue transition duration-300 md:text-base xl:text-lg rounded-full hover:scale-[1.03]">
-                    Présentez nous votre besoin
+                    Présentez nous votre projet
                 </a>
 
                 <span class="button-mobile-menu lg:hidden text-mtom-blue cursor-pointer"
