@@ -614,6 +614,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .ml-2 {
   margin-left: 0.5rem;
 }
+.mb-40 {
+  margin-bottom: 10rem;
+}
 .ml-4 {
   margin-left: 1rem;
 }
@@ -658,9 +661,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .ml-\[50\%\] {
   margin-left: 50%;
-}
-.mb-40 {
-  margin-bottom: 10rem;
 }
 .box-content {
   box-sizing: content-box;
@@ -1424,6 +1424,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pb-8 {
   padding-bottom: 2rem;
 }
+.pt-52 {
+  padding-top: 13rem;
+}
+.pb-52 {
+  padding-bottom: 13rem;
+}
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1465,12 +1471,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pr-4 {
   padding-right: 1rem;
-}
-.pt-52 {
-  padding-top: 13rem;
-}
-.pb-52 {
-  padding-bottom: 13rem;
 }
 .pb-2 {
   padding-bottom: 0.5rem;
@@ -2096,6 +2096,17 @@ label .custom-label {
   --tw-text-opacity: 1;
   color: rgb(242 201 51 / var(--tw-text-opacity));
 }
+.first-letter\:text-4xl::first-letter {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.first-letter\:text-3xl::first-letter {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.first-letter\:font-bold::first-letter {
+  font-weight: 700;
+}
 .selection\:bg-mtom-orange\/40 *::-moz-selection {
   background-color: rgb(242 201 51 / 0.4);
 }
@@ -2169,16 +2180,6 @@ label .custom-label {
   --tw-scale-y: 1.25;
   transform: var(--tw-transform);
 }
-.hover\:space-x-6:hover > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-.hover\:space-x-10:hover > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
 .hover\:border-white\/20:hover {
   border-color: rgb(255 255 255 / 0.2);
 }
@@ -2233,6 +2234,10 @@ label .custom-label {
   --tw-bg-opacity: 1;
   background-color: rgb(11 20 30 / var(--tw-bg-opacity));
 }
+.hover\:bg-gray-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
 .hover\:bg-gray-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
@@ -2240,14 +2245,6 @@ label .custom-label {
 .hover\:bg-red-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-.hover\:bg-mtom-blue:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(16 25 39 / var(--tw-bg-opacity));
-}
-.hover\:bg-gray-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
@@ -2542,10 +2539,6 @@ label .custom-label {
 
   .sm\:flex-1 {
     flex: 1 1 0%;
-  }
-
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:items-center {

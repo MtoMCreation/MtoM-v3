@@ -52,7 +52,7 @@
 
             </div>
 
-            <div class="mt-16 article-content leading-normal text-lg+">
+            <div class="mt-16 article-content leading-normal text-lg+ first-letter:text-4xl first-letter:font-bold">
                 {!! $article->contenu !!}
             </div>
         </div>
