@@ -77,7 +77,7 @@
             </div>
 
             <a href="{{ route('blogue') }}"
-               class="mt-20 flex items-center justify-center space-x-4 px-5 py-2 bg-gray-100 rounded">
+               class="mt-20 flex items-center justify-center space-x-4 px-5 py-2 bg-gray-100 hover:bg-gray-200 transition rounded">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
                 </svg>
