@@ -45,25 +45,32 @@
                 </div>
 
                 <div class="space-y-8 mt-8">
-
                     <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
-                        <x-icon-box-1 titre="Augmenter votre notoriété">
-                            1h20. C’est le temps journalier passé par un Canadien sur les réseaux sociaux. Il est donc important d’être présent correctement sur ces plateformes afin de capter votre clientèle et ses habitudes.
-                        </x-icon-box-1>
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Fidéliser sa clientèle">
+                                Il est bien plus facile de fidéliser un client que d’en convertir un nouveau. Prenez soin de vos client en maintenant une relation via les médias sociaux.
+                            </x-icon-box-1>
+                        </div>
 
-                        <x-icon-box-1 titre="Faire rayonner votre marque">
-                            Les réseaux sociaux sont un très bon moyen de faire rayonner votre marque auprès d’un large public et à moindre frais. Ils permettent également de susciter un besoin.
-                        </x-icon-box-1>
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Faire rayonner votre marque">
+                                Les réseaux sociaux sont un très bon moyen de faire rayonner votre marque auprès d’un large public et à moindre frais. Ils permettent également de susciter un besoin.
+                            </x-icon-box-1>
+                        </div>
                     </div>
 
                     <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
-                        <x-icon-box-1 titre="Fidéliser sa clientèle">
-                            Il est bien plus facile de fidéliser un client que d’en convertir un nouveau. Prenez soin de vos client en maintenant une relation via les médias sociaux.
-                        </x-icon-box-1>
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Augmenter votre notoriété">
+                                1h20. C’est le temps journalier passé par un Canadien sur les réseaux sociaux. Il est donc important d’être présent correctement sur ces plateformes afin de capter votre clientèle et ses habitudes.
+                            </x-icon-box-1>
+                        </div>
 
-                        <x-icon-box-1 titre="Écouter et réagir avec vos clients">
-                            Les réseaux sociaux permettent aussi de délier les langues. Ecouter les commentaires de vos clients sur vos services et produits et réagir avec eux pour connaître leur remarques et leur ressenti sont une preuve d’une image de marque soignée et d’un gage de qualité.
-                        </x-icon-box-1>
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Écouter et réagir avec vos clients">
+                                Ecouter les commentaires de vos clients sur vos services et produits et réagir avec eux pour connaître leur remarques et leur ressenti sont une preuve d’une image de marque soignée et d’un gage de qualité.
+                            </x-icon-box-1>
+                        </div>
                     </div>
 
                 </div>

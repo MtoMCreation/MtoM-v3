@@ -26,7 +26,7 @@
                 <br>
             </p>
 
-            <x-bouton-icon :lien="route('contact')">Contactez-nous</x-bouton-icon>
+            <x-bouton-icon :lien="route('presenter-projet')">Nous sommes là pour vous accompagner</x-bouton-icon>
         </div>
 
         <div class="lg:w-4/12 md:ml-6 mt-10 lg:-mt-0">

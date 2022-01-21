@@ -1,9 +1,17 @@
 <x-layouts.front-layout>
 
-    <div class="py-32 container">
+    <div class="py-20 md:py-32 container">
 
-        <div class="text-center">
-            <h1 class="title-1">Présentez nous votre <span class="text-mtom-orange">projet</span></h1>
+        <div class="text-center max-w-[1000px] mx-auto">
+            <h1 class="title-1">Présentez nous votre <span class="text-mtom-orange">besoin</span></h1>
+            <div class="mt-5">
+{{--                <h5>--}}
+{{--                    Création de site web, reseaux sociaux, publicité, SEO--}}
+{{--                </h5>--}}
+                <h3 class="font-bold">
+                    Nous sommes là pour vous accompagner dans votre développement numérique
+                </h3>
+            </div>
         </div>
 
         <div class="mt-20">
