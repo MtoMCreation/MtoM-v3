@@ -41,6 +41,8 @@
     <meta property="og:title" content="@yield('title', config('app.tagline'))" />
     <meta property="og:description" content="@yield('meta-description', 'Création de site web et stratégie numérique à Montréal')" />
     <meta property="og:image" content="@yield('og-meta-image', asset('storage/img/logos/logo-mtom.png'))" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
     <title>@yield('title', config('app.name'))</title>
 

@@ -6,7 +6,7 @@
 @section('meta-description')Création de site e-commerce. Conception, design et développement sur-mesure. Stratégie et optimisation SEO. Formation CMS. Création de boutique en ligne.
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/visuels/site-marchand-image.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/site-marchand-image.png') }}
 @endsection
 
 <!------------------ Page content ------------------>
