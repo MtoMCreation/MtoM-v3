@@ -21,7 +21,7 @@
         <div class="flex items-center justify-center space-x-10">
             <div class="text-center">
                 <div class="mb-10 md:mb-0">
-                    <img src="{{ asset($projet->logo) }}" class="mx-auto w-[200px]"
+                    <img src="{{ asset($projet->logo) }}" class="mx-auto max-w-[200px]"
                          alt="logo-client-{{$projet->client}}-{{config('app.tagline-slug')}}">
                 </div>
             </div>
