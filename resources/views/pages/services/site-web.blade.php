@@ -6,7 +6,7 @@
 @section('meta-description')Création de site web Professionnel. Conception, design et développement sur-mesure. Stratégie et optimisation SEO. Formation au CMS. Création de site web professionnel.
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/visuels/site-vitrine-image.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/rocket.png') }}
 @endsection
 
 
