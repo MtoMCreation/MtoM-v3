@@ -803,6 +803,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-11 {
   width: 2.75rem;
 }
+.w-\[300px\] {
+  width: 300px;
+}
+.w-\[200px\] {
+  width: 200px;
+}
+.w-\[150px\] {
+  width: 150px;
+}
 .min-w-full {
   min-width: 100%;
 }
@@ -2099,10 +2108,6 @@ label .custom-label {
 .first-letter\:text-4xl::first-letter {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-.first-letter\:text-3xl::first-letter {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 .first-letter\:font-bold::first-letter {
   font-weight: 700;

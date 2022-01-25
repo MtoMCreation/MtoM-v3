@@ -17,35 +17,39 @@
     </div>
 
     <div class="pt-20 container lg:pb-20 bg-white lg:border-t-4 lg:border-mtom-blue lg:rounded-md lg:-mt-20 max-w-[1000px]">
-        <div class="text-center">
-            <div class="mb-10 md:mb-0">
-                <img src="{{ asset($projet->logo) }}" class="mx-auto w-[100px]"
-                     alt="logo-client-{{$projet->client}}-{{config('app.tagline-slug')}}">
-            </div>
-            <h1 class="text-4xl font-title font-title font-bold mt-8">
-                {{ $projet->client }}
-            </h1>
 
-            @auth()
-                <a href="{{ route('projet.edit', $projet) }}"
-                   target="_blank"
-                   class="hidden lg:inline-flex fixed bottom-[50px] left-[50px] flex justify-between items-center space-x-3 bg-gray-100 hover:bg-gray-300 transition shadow-lg p-3 rounded-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-[20px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+        <div class="flex items-center justify-center space-x-10">
+            <div class="text-center">
+                <div class="mb-10 md:mb-0">
+                    <img src="{{ asset($projet->logo) }}" class="mx-auto w-[200px]"
+                         alt="logo-client-{{$projet->client}}-{{config('app.tagline-slug')}}">
+                </div>
+            </div>
+            <div class="">
+                <h1 class="text-4xl font-title font-title font-bold mt-8">
+                    {{ $projet->client }}
+                </h1>
+                <a href="{{ $projet->lien_site }}" target="_blank"
+                   class="mt-6 inline-flex items-center justify-center space-x-4 px-5 py-2 bg-mtom-gray hover:bg-mtom-orange transition rounded-full text-white">
+                    <h4 class="font-title text-sm font-bold uppercase">Voir le site web</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                 </a>
-            @endauth
-
+            </div>
         </div>
-        <a href="{{ $projet->lien_site }}" target="_blank"
-           class="mt-10 flex items-center justify-center space-x-4 px-5 py-2 bg-mtom-gray rounded-full text-white">
-            <h4 class="font-title text-sm font-bold uppercase">Voir le site web</h4>
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-        </a>
 
-        <div class="py-5 border-b-2 border-gray-100">
+        @auth()
+            <a href="{{ route('projet.edit', $projet) }}"
+               target="_blank"
+               class="hidden lg:inline-flex fixed bottom-[50px] left-[50px] flex justify-between items-center space-x-3 bg-gray-100 hover:bg-gray-300 transition shadow-lg p-3 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-[20px]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                </svg>
+            </a>
+        @endauth
+
+        <div class="mt-5 py-5 border-b-2 border-gray-100">
             <div class="space-y-3 space-x-3">
                 <h5 class="text-sm font-bold inline-flex">{{ $projet->date_publication }}</h5>
                 @foreach($projet->categories as $categorie)
