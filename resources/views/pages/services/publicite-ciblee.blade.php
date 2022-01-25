@@ -6,7 +6,7 @@
 @section('meta-description')Mise en place d'une stratégie de publicité : Définition des objectifs, création et gestion des campagnes et optimisation du budget... On vous accompagne.
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/visuels/publicite-ciblee.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/marketing.png') }}
 @endsection
 
 <!------------------ Page content ------------------>

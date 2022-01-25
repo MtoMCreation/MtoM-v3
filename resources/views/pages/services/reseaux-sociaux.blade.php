@@ -6,7 +6,7 @@
 @section('meta-description')Nous aidons les entreprises à gérer leurs réseaux sociaux pour optimiser leur stratégie web et leur présence sur ces plateformes. Gérer ses réseaux sociaux.
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/visuels/reseaux-sociaux-image.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/reseaux-sociaux-image.png') }}
 @endsection
 
 <!------------------ Page content ------------------>

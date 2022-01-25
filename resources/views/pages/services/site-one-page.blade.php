@@ -6,7 +6,7 @@
 @section('meta-description')Création de site one page. Conception, design et développement sur-mesure. Stratégie et optimisation SEO. Formation CMS. Création de site web one-page.
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/visuels/site-one-page-image.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/site-one-page-image.png') }}
 @endsection
 
 <!------------------ Page content ------------------>

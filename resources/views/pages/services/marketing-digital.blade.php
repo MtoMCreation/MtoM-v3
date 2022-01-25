@@ -6,7 +6,7 @@
 @section('meta-description')Agence de marketing digital montréal. Gestion des médias sociaux. Gestion de campagne publicitaire. SEA. Création d'infolettre. Marketing numérique Montréal
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/visuels/site-vitrine-image.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/marketing-numerique.png') }}
 @endsection
 
 

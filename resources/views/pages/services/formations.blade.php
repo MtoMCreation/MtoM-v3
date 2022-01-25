@@ -6,7 +6,7 @@
 @section('meta-description')Découvrez comment améliorer votre référencement SEO pour booster votre visibilité et augmenter le trafic sur votre site web. Optimisation SEO de votre site.
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/visuels/formations-image.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/formations-image.png') }}
 @endsection
 
 <!------------------ Page content ------------------>

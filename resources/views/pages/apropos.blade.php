@@ -6,7 +6,7 @@
 @section('meta-description')Tout savoir sur la création de site web, le SEO, la stratégie numérique, le deisgn, les tendances numériques... Découvrez notre blogue spécialisé
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/visuels/a-propos-image.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/a-propos-image.png') }}
 @endsection
 
     <!------------------ Page content ------------------>

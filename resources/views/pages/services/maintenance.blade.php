@@ -6,7 +6,7 @@
 @section('meta-description')Maintenance de sites web Wordpress et Shopify : tout ce qu'il faut savoir pour assurer la pérennité et le succès de son site web. Bien mettre à jour son site.
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/visuels/maintenance.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/maintenance.png') }}
 @endsection
 
 <!------------------ Page content ------------------>

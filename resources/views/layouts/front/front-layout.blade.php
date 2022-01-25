@@ -37,16 +37,19 @@
 
     <meta name="description" content="@yield('meta-description', 'Création de site web et stratégies numériques à Montréal')">
 
+
     <meta property="og:url" content="{{ \Illuminate\Support\Facades\URL::current() }}" />
     <meta property="og:title" content="@yield('title', config('app.tagline'))" />
     <meta property="og:description" content="@yield('meta-description', 'Création de site web et stratégie numérique à Montréal')" />
-    <meta property="og:image" content="@yield('og-meta-image', asset('storage/img/logos/logo-mtom.png'))" />
+    <meta property="og:image" content="@yield('og-meta-image', asset('storage/img/visuels/building-websites.png'))" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="{{ config('app.tagline') }}" />
 
     <title>@yield('title', config('app.name'))</title>
 
     <link rel="icon" href="{{ URL::asset('storage/img/logos/favicon.png') }}" type="image/x-icon"/>
+
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
@@ -114,11 +117,6 @@
          style="z-index: 90">
         @include('layouts.front.front-navigation')
 
-{{--        <div class="hidden lg:block">--}}
-{{--            <div id="section-scroll-progress" class="bg-mtom-blue-2 hidden" >--}}
-{{--                <div id="scroll-progress" class="bg-mtom-orange" style="height: 2px"></div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
     </div>
 
     <div class="lg:hidden">
@@ -190,28 +188,5 @@
         window.livewire.restart();
     });
 
-
-    // let scrollpos = window.scrollY
-    // const scrollIndicator = document.querySelector("#section-scroll-progress")
-    //
-    // const add_class_on_scroll = () => scrollIndicator.classList.add("hidden")
-    // const remove_class_on_scroll = () => scrollIndicator.classList.remove("hidden")
-    //
-    // window.addEventListener('scroll', function() {
-    //     scrollpos = window.scrollY;
-    //
-    //     if (scrollpos <= 10) { add_class_on_scroll() }
-    //     else { remove_class_on_scroll() }
-    // })
-    //
-    //
-    // const scrollProgress = document.getElementById('scroll-progress');
-    // const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    //
-    // window.addEventListener('scroll', () => {
-    //     const scrollTop =
-    //         document.body.scrollTop || document.documentElement.scrollTop;
-    //     scrollProgress.style.width = `${(scrollTop / height) * 99.5}%`;
-    // });
 
 </script>

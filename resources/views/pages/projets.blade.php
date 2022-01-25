@@ -6,7 +6,7 @@
 @section('meta-description')Nos réalisations : création de site web vitrine, conception de site web marchand, formation digitales, stratégie numériques... Portfolio de MtoM Création
 @endsection
 
-@section('og-meta-image'){{ asset('storage/img/building-websites.svg') }}
+@section('og-meta-image'){{ asset('storage/img/visuels/projets.png') }}
 @endsection
 
 <!------------------ Page content ------------------>
