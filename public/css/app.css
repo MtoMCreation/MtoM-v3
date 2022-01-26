@@ -533,6 +533,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .left-1\/2 {
   left: 50%;
 }
+.-bottom-\[50px\] {
+  bottom: -50px;
+}
+.-bottom-\[20px\] {
+  bottom: -20px;
+}
+.-bottom-\[30px\] {
+  bottom: -30px;
+}
 .z-0 {
   z-index: 0;
 }
