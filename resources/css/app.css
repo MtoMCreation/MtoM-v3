@@ -105,6 +105,9 @@ label .custom-label{
 .article-content a{
     @apply text-mtom-orange font-bold
 }
+.article-content p {
+    @apply mt-5
+}
 
 @layer components {
 

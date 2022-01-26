@@ -23,7 +23,7 @@
                     </li>
                     <li class="nav-links">
                         <a href="{{ route('blogue') }}"  class="{{ Route::is('blogue') ? 'active': '' }}">
-                            Blogue</a>
+                            Articles</a>
                     </li>
                     <li class="nav-links">
                         <a href="{{ route('apropos') }}"  class="{{ Route::is('apropos') ? 'active': '' }}">
