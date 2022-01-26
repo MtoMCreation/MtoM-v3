@@ -23,21 +23,21 @@
                     <div class="md:flex md:space-x-6 space-y-6 md:space-y-0">
                         <div>
                             <label class="custom-label" for="nom">Nom</label>
-                            <input type="text" name="nom" class="custom-input mt-2">
+                            <input type="text" name="nom" class="custom-input mt-2" value="{{ old('nom') }}">
                             @error('nom')
                                 <span class="form-error-span">{{ $message }}</span>
                             @enderror
                         </div>
                         <div>
                             <label class="custom-label" for="telephone">Téléphone</label>
-                            <input type="tel" name="telephone" class="custom-input mt-2">
+                            <input type="tel" name="telephone" class="custom-input mt-2" value="{{ old('telephone') }}">
                             @error('telephone')
                                 <span class="form-error-span">{{ $message }}</span>
                             @enderror
                         </div>
                         <div>
                             <label class="custom-label" for="courriel">Courriel</label>
-                            <input type="email" name="courriel" class="custom-input mt-2">
+                            <input type="email" name="courriel" class="custom-input mt-2" value="{{ old('courriel') }}">
                             @error('courriel')
                                 <span class="form-error-span">{{ $message }}</span>
                             @enderror
@@ -77,7 +77,7 @@
 
                     <div class="mt-6">
                         <label class="custom-label" for="message">Présentez nous votre projet</label>
-                        <textarea name="message" rows="5" class="custom-input mt-2"></textarea>
+                        <textarea name="message" rows="5" class="custom-input mt-2">{{ old('message') }}</textarea>
                         @error('message')
                             <span class="form-error-span">{{ $message }}</span>
                         @enderror

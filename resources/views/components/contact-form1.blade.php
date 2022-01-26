@@ -7,7 +7,7 @@
             <label class="block text-gray-700 text-sm font-bold mb-2" for="nom">
                 Nom
             </label>
-            <input class="custom-input" name="nom" id="nom" type="text" placeholder="Jean">
+            <input class="custom-input" name="nom" id="nom" type="text" placeholder="Julien" value="{{ old('nom') }}">
             @error('nom')
             <span class="form-error-span">{{ $message }}</span>
             @enderror
@@ -17,7 +17,7 @@
             <label class="block text-gray-700 text-sm font-bold mb-2" for="telephone">
                 Téléphone
             </label>
-            <input class="custom-input" name="telephone" id="telephone" type="text" placeholder="514...">
+            <input class="custom-input" name="telephone" id="telephone" type="text" placeholder="514..." value="{{ old('telephone') }}">
             @error('telephone')
             <span class="form-error-span">{{ $message }}</span>
             @enderror
@@ -27,7 +27,7 @@
         <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
             Email
         </label>
-        <input class="custom-input" name="email" id="email" type="email" placeholder="@">
+        <input class="custom-input" name="email" id="email" type="email" placeholder="@" value="{{ old('email') }}">
         @error('email')
         <span class="form-error-span">{{ $message }}</span>
         @enderror
@@ -36,7 +36,7 @@
         <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
             Message
         </label>
-        <textarea name="message" id="message" cols="7" class="custom-input"></textarea>
+        <textarea name="message" id="message" cols="7" class="custom-input">{{ old('message') }}</textarea>
         @error('message')
         <span class="form-error-span">{{ $message }}</span>
         @enderror
