@@ -232,7 +232,7 @@
                     </h2>
                 </div>
                 <div class="hidden lg:inline-flex">
-                    <x-bouton-icon-2 :lien="route('blogue')" class="">Tous nos articles</x-bouton-icon-2>
+                    <x-bouton-icon-2 :lien="route('articles')" class="">Tous nos articles</x-bouton-icon-2>
                 </div>
             </div>
 

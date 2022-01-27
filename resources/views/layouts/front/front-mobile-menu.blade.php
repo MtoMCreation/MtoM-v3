@@ -28,7 +28,7 @@
                             </li>
                             <li class="w-full">
                                 <a class="p-2 bg-gray-100 hover:bg-mtom-orange transition block text-center"
-                                   href="{{ route('blogue') }}">Blogue</a>
+                                   href="{{ route('articles') }}">Articles</a>
                             </li>
                         </ul>
                         <ul class="flex justify-center items-center space-x-4">

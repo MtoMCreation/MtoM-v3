@@ -47,8 +47,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('blogue') }}" class="{{ Route::is('blogue') ? 'active': '' }}">
-                            Blogue
+                        <a href="{{ route('articles') }}" class="{{ Route::is('articles') ? 'active': '' }}">
+                            Articles
                         </a>
                     </li>
                     <li>

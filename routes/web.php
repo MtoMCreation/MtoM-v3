@@ -25,7 +25,7 @@ Route::get('/sitemap_index.xml', [SiteMapController::class, 'index'])->name('sit
 Route::get('/', [PagesController::class, 'accueil'])->name('accueil');
 Route::get('/projets', [PagesController::class, 'projets'])->name('projets');
 Route::get('/a-propos', [PagesController::class, 'apropos'])->name('apropos');
-Route::get('/blogue', [PagesController::class, 'blogue'])->name('blogue');
+Route::get('/articles', [PagesController::class, 'blogue'])->name('articles');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/presenter-un-projet', [PagesController::class, 'presenterProjet'])->name('presenter-projet');
 
