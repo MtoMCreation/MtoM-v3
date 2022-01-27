@@ -18,14 +18,14 @@
 
     <div class="pt-20 container lg:pb-20 bg-white lg:border-t-4 lg:border-mtom-blue lg:rounded-md lg:-mt-20 max-w-[1000px]">
 
-        <div class="flex items-center justify-center space-x-10">
+        <div class="md:flex items-center justify-center md:space-x-10">
             <div class="text-center">
                 <div class="mb-10 md:mb-0">
-                    <img src="{{ asset($projet->logo) }}" class="mx-auto max-w-[200px]"
+                    <img src="{{ asset($projet->logo) }}" class="mx-auto max-w-[150px] md:max-w-[200px]"
                          alt="logo-client-{{$projet->client}}-{{config('app.tagline-slug')}}">
                 </div>
             </div>
-            <div class="">
+            <div class="text-center md:text-left">
                 <h1 class="text-4xl font-title font-title font-bold mt-8">
                     {{ $projet->client }}
                 </h1>

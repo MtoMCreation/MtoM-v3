@@ -533,12 +533,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .left-1\/2 {
   left: 50%;
 }
-.-bottom-\[50px\] {
-  bottom: -50px;
-}
-.-bottom-\[20px\] {
-  bottom: -20px;
-}
 .-bottom-\[30px\] {
   bottom: -30px;
 }
@@ -835,6 +829,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .max-w-\[200px\] {
   max-width: 200px;
+}
+.max-w-\[150px\] {
+  max-width: 150px;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -2670,6 +2667,10 @@ label .custom-label {
 
   .md\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .md\:max-w-\[200px\] {
+    max-width: 200px;
   }
 
   .md\:transform {
