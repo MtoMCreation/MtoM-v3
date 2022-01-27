@@ -806,6 +806,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-11 {
   width: 2.75rem;
 }
+.w-\[150px\] {
+  width: 150px;
+}
 .min-w-full {
   min-width: 100%;
 }
@@ -2667,6 +2670,10 @@ label .custom-label {
 
   .md\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .md\:w-\[200px\] {
+    width: 200px;
   }
 
   .md\:max-w-\[200px\] {
