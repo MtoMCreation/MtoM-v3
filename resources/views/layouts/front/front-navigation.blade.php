@@ -90,9 +90,11 @@
                         </ul>
                     </div>
                     <div>
-                        <h4 class="font-title font-bold text-md uppercase">
-                            Formations en ligne
-                        </h4>
+                        <a href="{{ route('formations') }}">
+                            <h4 class="font-title font-bold text-md uppercase">
+                                Formations en ligne
+                            </h4>
+                        </a>
                         <ul class="sub-navigation mt-2 flex-col">
                             <li>
                                 <a href="{{ route('formations') }}" class="{{ Route::is('formations') ? 'active': '' }}">
