@@ -78,6 +78,49 @@
             </div>
         </div>
 
+        <!-- FAQ -->
+        <div class="image-fond-texture page-section-1 flex items-center shadow-xl">
+            <div class="container">
+
+                <div class="">
+                    <h4 class="sub-title-2 text-mtom-dark-blue">FAQ</h4>
+                    <h2 class="title-2 text-white">
+                        <span class="text-mtom-orange">Questions</span> fréquentes
+                    </h2>
+                </div>
+
+                <div class="text-white mt-6">
+                    <p>
+                        Avant de commencer à rédiger du contenu ou à bâtir une stratégie SEO, il est important de comprendre ce qui a déjà été fait, ce qui a fonctionné et les irritants du passé. Ensuite, nous travaillons avec des objectifs clairs et une feuille de route pour suivre l’avancement de chaque action mise en place.
+                    </p>
+                    <div class="space-y-8 mt-8">
+
+                        <x-icon-box-faq-1 titre="Avez-vous besoin d’accès à mes plateformes ?"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            Pour analyser au mieux et vous proposer une stratégi, nous demandons un accès à plusieurs de vos plateformes comme votre site web, Google Analytics, Google Search Console et tout autre outil que vous utilisez pour votre référencement naturel. Nous pouvons aussi vous installer des outils pour suivre et mesure nos actions.
+                        </x-icon-box-faq-1>
+
+                        <x-icon-box-faq-1 titre="J’ai déjà un site web mais je ne sais pas si le SEO est optimal"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            Même si nous n’avons pas crée votre site web, nous avons des outils pour analyser votre site et vous proposer des recommandations. Nous pourrons également les mettre en place sur votre plateforme et faire un suivi.
+                        </x-icon-box-faq-1>
+
+                        <x-icon-box-faq-1 titre="Je voudrais écrire des articles de blog mais j’ai besoin d’un accompagnement"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            Nous proposons des accompagnements et des formations pour vous aider dans la rédaction de votre contenu. Nous partagerons nos conseils et bonnes pratiques pour que vous soyez autonome dans la rédaction de vos articles de blog
+                        </x-icon-box-faq-1>
+
+                        <x-icon-box-faq-1 titre="Proposez-vous des services de rédaction de contenu ?"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            Oui, nous proposons nos services pour la rédaction de vos articles de blog et autre contenu. Nous sommes capables de rédiger sur de nombreux sujets et thématiques mais nous nous gardons le droit de refuser si votre entreprise ou secteur d’activité est trop spécifique ou pointu.
+                        </x-icon-box-faq-1>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
         <!-- Autres services -->
         <div class="page-section-1 flex items-center shadow-xl">
             <div class="container">

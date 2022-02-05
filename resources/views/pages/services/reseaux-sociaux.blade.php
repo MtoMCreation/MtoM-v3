@@ -165,6 +165,49 @@
             </div>
         </div>
 
+        <!-- FAQ -->
+        <div class="image-fond-texture page-section-1 flex items-center shadow-xl">
+            <div class="container">
+
+                <div class="">
+                    <h4 class="sub-title-2 text-mtom-dark-blue">FAQ</h4>
+                    <h2 class="title-2 text-white">
+                        <span class="text-mtom-orange">Questions</span> fréquentes
+                    </h2>
+                </div>
+
+                <div class="text-white mt-6">
+                    <p>
+                        Avant de commencer la gestion de vos réseaux sociaux, nous prenons un temps avec vous pour comprendre votre marque, vos objectifs, votre cible. Nous vous conseillons sur les différentes plateformes, leurs avantages, leurs limites, leurs contraintes. Nous commençons à animer vos médias sociaux quand nous avons trouvé ensemble une ligne éditoriale à suivre et des objectifs clairs.
+                    </p>
+                    <div class="space-y-8 mt-8">
+
+                        <x-icon-box-faq-1 titre="Qui rédige le contenu à partager ?"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            C’est nous qui nous occupons de rédiger le contenu pour vos différentes réseaux sociaux. Nous analysons ce qui a déjà été fait, nous étudions votre cible et nous vous proposons un calendrier de publications mensuelles qui répond au mieux à votre objectif et à votre cible. Ce calendrier doit être validé pour être publié.
+                        </x-icon-box-faq-1>
+
+                        <x-icon-box-faq-1 titre="Dois-je fournir les visuels pour chaque post ?"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            Dans la majorité du temps oui, nous demandons des photos et/ou vidéos. Cependant, nous pouvons également chercher des visuels ou en créer au besoin.
+                        </x-icon-box-faq-1>
+
+                        <x-icon-box-faq-1 titre="Est-ce que vous gérez les commentaires également ?"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            Oui dans le forfait mensuel que nous proposons, cela comprend la réponses aux commentaires et questions des communautés. Quand nous ne sommes pas en capacité de répondre, nous vous contactons pour plus d’informations avant de répondre à l’abonné.
+                        </x-icon-box-faq-1>
+
+                        <x-icon-box-faq-1 titre="Y a t-il un engagement ?"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            Non, nos forfaits mensuels sont sans engagement. Vous pouvez résilier à tout moment avant le début du mois d’après. Cependant, pour mesurer et analyser les actions mises en place, nous conseillons un accompagnement d’au moins 3 à 6 mois.
+                        </x-icon-box-faq-1>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
         <!-- Autres services -->
         <div class="page-section-1 flex items-center shadow-xl">
             <div class="container">

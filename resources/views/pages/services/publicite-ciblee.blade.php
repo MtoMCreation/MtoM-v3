@@ -146,6 +146,49 @@
             </div>
         </div>
 
+        <!-- FAQ -->
+        <div class="image-fond-texture page-section-1 flex items-center shadow-xl">
+            <div class="container">
+
+                <div class="">
+                    <h4 class="sub-title-2 text-mtom-dark-blue">FAQ</h4>
+                    <h2 class="title-2 text-white">
+                        <span class="text-mtom-orange">Questions</span> fréquentes
+                    </h2>
+                </div>
+
+                <div class="text-white mt-6">
+                    <p>
+                        Nous proposons nos services de gestion de campagnes publicitaires pour toutes les entreprises, quelles que soient leurs tailles et leur budget.
+                    </p>
+                    <div class="space-y-8 mt-8">
+
+                        <x-icon-box-faq-1 titre="Pourquoi faire des publicités sur Facebook et Instagram ?"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            Avec plus de 2,8 milliards d’utilisateurs mensuels, Facebook est la plateforme de prédilection pour les entreprises. Faire de la publicité sur cette plateforme vous aidera à faire grossir votre communauté, toucher une audience qui ne vous connaît pas, promouvoir un nouveau produit, recibler les visiteurs de votre site...
+                        </x-icon-box-faq-1>
+
+                        <x-icon-box-faq-1 titre="Quelle est la différence entre Facebook Ads et Google Ads ?"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            Facebook Ads vous permet d’afficher une publicité payante directement dans le fil d’actualité des utilisateurs Facebook et Instagram. Les campagnes Google Ads apparaissent sur le moteur de recherche suite à une requête tapée par l’internaute. L’une suggère une idée alors que l’autre répond à un besoin.
+                        </x-icon-box-faq-1>
+
+                        <x-icon-box-faq-1 titre="Quel budget dois-je investir pour avoir des résultats ?"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            Votre budget Facebook Ads va dépendre de vos objectifs et de votre cible. Au début de chaque mandat, nous discutons de vos objectifs et nous adapterons notre offre et notre stratégie selon vos besoins et votre budget.
+                        </x-icon-box-faq-1>
+
+                        <x-icon-box-faq-1 titre="Où puis-je voir les statistiques de mes campagnes ?"
+                                          path="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            En début de mandat, nous vous fournissons un document que nous mettrons à jour tout au long du projet. Vous pourrez suivre et analyser les données depuis ce document partagé. Vous pouvez également suivre en temps réel les campagnes car vous aurez les mêmes accès administrateurs que nous.
+                        </x-icon-box-faq-1>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
         <!-- Autres services -->
         <div class="page-section-1 flex items-center shadow-xl">
             <div class="container">
