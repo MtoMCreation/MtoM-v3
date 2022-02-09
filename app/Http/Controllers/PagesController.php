@@ -6,6 +6,7 @@ use App\Models\Article;
 use App\Models\Projet;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
 use Intervention\Image\Facades\Image;
 
 class PagesController extends Controller
@@ -16,6 +17,12 @@ class PagesController extends Controller
         return view('pages.test-page');
     }
 
+
+    /**
+     * @param Projet $projets
+     * @param Article $articles
+     * @return Application|Factory|View
+     */
     public function accueil(Projet $projets, Article $articles)
     {
         return view('pages.accueil', [
@@ -26,12 +33,19 @@ class PagesController extends Controller
     }
 
 
+    /**
+     * @return Application|Factory|View
+     */
     public function projets()
     {
         return view('pages.projets');
     }
 
 
+    /**
+     * @param Article $articles
+     * @return Application|Factory|View
+     */
     public function blogue(Article $articles)
     {
         if ($articles->count() > 0) {
@@ -48,17 +62,28 @@ class PagesController extends Controller
     }
 
 
+    /**
+     * @return Application|Factory|View
+     */
     public function apropos()
     {
         return view('pages.apropos');
     }
 
 
+    /**
+     * @return Application|Factory|View
+     *
+     */
     public function contact()
     {
         return view('pages.contact');
     }
 
+
+    /**
+     * @return Application|Factory|View
+     */
     public function presenterProjet()
     {
         return view('pages.presenter-projet');

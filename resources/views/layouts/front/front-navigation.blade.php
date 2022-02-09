@@ -3,9 +3,11 @@
     <div class="container">
         <div class="relative flex justify-between items-center">
             <div class="left-site flex items-center space-x-10">
-                <a href="{{ route('accueil') }}">
+
+                <a href="{{ route('accueil') }}" class="hover:-rotate-6 transition">
                     <img src="{{ asset('storage/img/logos/logo-mtom.png') }}" alt="" style="width: 80px">
                 </a>
+
                 <ul class="main-nav hidden lg:flex space-x-6 font-title font-bold uppercase md:text-sm xl:text-xl">
                     <li class="nav-links flex items-center space-x-1 cursor-pointer"
                         @click="megaMenu = !megaMenu">

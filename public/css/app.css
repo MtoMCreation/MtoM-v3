@@ -882,6 +882,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
           animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+@-webkit-keyframes ping {
+
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes ping {
+
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+.animate-ping {
+  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
 .cursor-default {
   cursor: default;
 }
@@ -2171,6 +2189,22 @@ label .custom-label {
 }
 .hover\:-translate-y-2:hover {
   --tw-translate-y: -0.5rem;
+  transform: var(--tw-transform);
+}
+.hover\:rotate-45:hover {
+  --tw-rotate: 45deg;
+  transform: var(--tw-transform);
+}
+.hover\:rotate-12:hover {
+  --tw-rotate: 12deg;
+  transform: var(--tw-transform);
+}
+.hover\:-rotate-12:hover {
+  --tw-rotate: -12deg;
+  transform: var(--tw-transform);
+}
+.hover\:-rotate-6:hover {
+  --tw-rotate: -6deg;
   transform: var(--tw-transform);
 }
 .hover\:scale-\[1\.03\]:hover {
