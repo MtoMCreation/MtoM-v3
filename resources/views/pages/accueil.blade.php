@@ -278,7 +278,7 @@
                         <a href="{{ route('projet.show', $projet) }}">
                             <img src="{{ asset($projet->logo) }}"
                                  alt="logo-{{ \Illuminate\Support\Str::slug($projet->client) }}-{{ config('app.tagline-slug') }}"
-                                 class="w-14 inline m-4 transform filter saturate-0 hover:saturate-100 hover:scale-125 transition transition duration-300 ease-in-out">
+                                 class="w-14 inline m-4 transform filter saturate-0 hover:saturate-100 hover:scale-125 hover:-rotate-6 transition transition duration-300 ">
                         </a>
                     @endforeach
                 </div>
