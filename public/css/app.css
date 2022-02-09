@@ -605,14 +605,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-20 {
   margin-top: 5rem;
 }
-.mb-4 {
-  margin-bottom: 1rem;
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 .mt-1 {
   margin-top: 0.25rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
 }
 .ml-2 {
   margin-left: 0.5rem;
@@ -629,17 +632,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .ml-6 {
   margin-left: 1.5rem;
 }
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
 .mb-20 {
   margin-bottom: 5rem;
 }
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
 .ml-8 {
   margin-left: 2rem;
-}
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 .mt-14 {
   margin-top: 3.5rem;
@@ -1371,10 +1371,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -1386,6 +1382,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .py-6 {
   padding-top: 1.5rem;
@@ -1424,12 +1424,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pt-3 {
   padding-top: 0.75rem;
 }
-.pt-6 {
-  padding-top: 1.5rem;
-}
-.pb-8 {
-  padding-bottom: 2rem;
-}
 .pt-52 {
   padding-top: 13rem;
 }
@@ -1444,6 +1438,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pt-12 {
   padding-top: 3rem;
+}
+.pt-6 {
+  padding-top: 1.5rem;
+}
+.pb-8 {
+  padding-bottom: 2rem;
 }
 .pb-16 {
   padding-bottom: 4rem;
@@ -1819,6 +1819,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 body {
   font-size: 1.25rem;
   line-height: 1.75rem;
+  font-weight: 600;
 }
 p {
   line-height: 1.625;
@@ -2056,7 +2057,7 @@ label .custom-label {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
-.presentation-projet .custom-label {
+.custom-label {
   font-weight: 900;
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -2706,16 +2707,16 @@ label .custom-label {
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1rem * var(--tw-space-x-reverse));
-    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -2747,6 +2748,10 @@ label .custom-label {
 
   .md\:p-5 {
     padding: 1.25rem;
+  }
+
+  .md\:p-10 {
+    padding: 2.5rem;
   }
 
   .md\:p-20 {

@@ -1,10 +1,10 @@
 <form method="post" action="{{ route('form.contact') }}"
-      class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      class="bg-white shadow-md border-4 border-gray-50 rounded-2xl p-5 md:p-10">
     @csrf
     @method('POST')
     <div class="md:flex md:space-x-4">
-        <div class="mb-4 w-full">
-            <label class="block text-gray-700 text-sm font-bold mb-2" for="nom">
+        <div class="mb-6 w-full">
+            <label class="custom-label" for="nom">
                 Nom
             </label>
             <input class="custom-input" name="nom" id="nom" type="text" placeholder="Julien" value="{{ old('nom') }}">
@@ -13,8 +13,8 @@
             @enderror
         </div>
 
-        <div class="mb-4 w-full">
-            <label class="block text-gray-700 text-sm font-bold mb-2" for="telephone">
+        <div class="mb-6 w-full">
+            <label class="custom-label" for="telephone">
                 Téléphone
             </label>
             <input class="custom-input" name="telephone" id="telephone" type="text" placeholder="514..." value="{{ old('telephone') }}">
@@ -23,8 +23,8 @@
             @enderror
         </div>
     </div>
-    <div class="mb-4">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+    <div class="mb-6">
+        <label class="custom-label" for="email">
             Email
         </label>
         <input class="custom-input" name="email" id="email" type="email" placeholder="@" value="{{ old('email') }}">
@@ -32,8 +32,8 @@
         <span class="form-error-span">{{ $message }}</span>
         @enderror
     </div>
-    <div class="mb-4">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+    <div class="mb-6">
+        <label class="custom-label" for="username">
             Message
         </label>
         <textarea name="message" id="message" cols="7" class="custom-input">{{ old('message') }}</textarea>

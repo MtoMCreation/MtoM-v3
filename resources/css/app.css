@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 body{
-    @apply text-xl
+    @apply text-xl font-semibold
 }
 p{
     @apply leading-relaxed
@@ -80,7 +80,7 @@ p{
 label .custom-label{
     @apply block text-gray-700 text-sm font-bold mb-2
 }
-.presentation-projet .custom-label {
+.custom-label {
     @apply font-black text-gray-600
 }
 
