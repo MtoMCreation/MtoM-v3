@@ -37,6 +37,9 @@ p{
     width: 15px;
     height: 15px;
 }
+.nav-links {
+    @apply text-mtom-blue hover:scale-[1.03] transition duration-300
+}
 
 .class-test{
     @apply bg-blue-300 font-bold text-white px-4 py-1 rounded

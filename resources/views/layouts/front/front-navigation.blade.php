@@ -4,7 +4,7 @@
         <div class="relative flex justify-between items-center">
             <div class="left-site flex items-center space-x-10">
 
-                <a href="{{ route('accueil') }}" class="hover:-rotate-6 transition">
+                <a href="{{ route('accueil') }}" class="hover:-rotate-6 hover:scale-[1.03] transition duration-300">
                     <img src="{{ asset('storage/img/logos/logo-mtom.png') }}" alt="" style="width: 80px">
                 </a>
 

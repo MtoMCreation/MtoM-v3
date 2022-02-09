@@ -882,24 +882,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
           animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
-@-webkit-keyframes ping {
-
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-@keyframes ping {
-
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-.animate-ping {
-  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
 .cursor-default {
   cursor: default;
 }
@@ -1902,6 +1884,20 @@ p {
     width: 15px;
     height: 15px;
 }
+.nav-links {
+  --tw-text-opacity: 1;
+  color: rgb(16 25 39 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+.nav-links:hover {
+  --tw-scale-x: 1.03;
+  --tw-scale-y: 1.03;
+  transform: var(--tw-transform);
+}
 .class-test {
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
@@ -2189,18 +2185,6 @@ label .custom-label {
 }
 .hover\:-translate-y-2:hover {
   --tw-translate-y: -0.5rem;
-  transform: var(--tw-transform);
-}
-.hover\:rotate-45:hover {
-  --tw-rotate: 45deg;
-  transform: var(--tw-transform);
-}
-.hover\:rotate-12:hover {
-  --tw-rotate: 12deg;
-  transform: var(--tw-transform);
-}
-.hover\:-rotate-12:hover {
-  --tw-rotate: -12deg;
   transform: var(--tw-transform);
 }
 .hover\:-rotate-6:hover {
