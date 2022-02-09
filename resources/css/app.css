@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 body{
-    @apply text-xl font-semibold
+    @apply text-xl font-semibold text-gray-700
 }
 p{
     @apply leading-relaxed

@@ -1820,6 +1820,8 @@ body {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 p {
   line-height: 1.625;
