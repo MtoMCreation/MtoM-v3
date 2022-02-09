@@ -3,10 +3,10 @@
 @import 'tailwindcss/utilities';
 
 body{
-    @apply text-xl font-semibold text-gray-700
+    @apply text-xl font-semibold
 }
 p{
-    @apply leading-relaxed
+    @apply leading-relaxed text-gray-700
 }
 
 .h-hero{
