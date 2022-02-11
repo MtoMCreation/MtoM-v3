@@ -52,8 +52,8 @@
                     </h2>
                 </div>
 
-                <div class="text-white mt-6 text-base">
-                    <p class="font-black text-xl">
+                <div class="mt-6 text-base">
+                    <p class="font-black text-xl ">
                         Aller à l'essentiel
                     </p>
 

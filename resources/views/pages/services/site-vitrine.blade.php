@@ -53,7 +53,7 @@
                     </h2>
                 </div>
 
-                <div class="text-white mt-6">
+                <div class="mt-6">
                     <p>
                         Avant même de commencer <b>la création de votre site web</b>, il est primordial de définir quels sont vos objectifs et vos attentes. Avoir une vitrine en ligne, présenter vos services, fidéliser et/ou acquerir une nouvelle clientèle... Grâce à ces éléments, nous pourrons vous <b>créer un site internet sur mesure qui répond réellement à vos besoins</b> et qui sera un vrai plus pour votre activité.
                     </p>
