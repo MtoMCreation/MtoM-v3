@@ -154,7 +154,9 @@
                         </h4>
                     </a>
                     <p class="mt-2" style="font-size: 16px; ">
-                        Vous voulez nous présenter un projet, avoir plus d'informations sur nos services ou tout autre demande ?
+                        Vous voulez nous <a href="{{ route('presenter-projet') }}" class="font-bold">présenter un projet</a>, avoir plus d'informations sur
+                        <a href="{{ route('tous-les-services') }}" class="font-bold">nos services</a> ou simplement nous poser votre question ?
+                        Nous sommes là pour vous accompagner.
                         <br>
                         N'hésitez plus,
                         <a href="{{ route('contact') }}" class="inline font-black underline decoration decoration-2 underline-offset-2">Contactez-nous !</a>
