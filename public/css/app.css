@@ -2121,7 +2121,9 @@ label .custom-label {
 .article-content a {
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(242 201 51 / var(--tw-text-opacity));
+  color: rgb(16 25 39 / var(--tw-text-opacity));
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 .article-content p {
   margin-top: 1.25rem;
