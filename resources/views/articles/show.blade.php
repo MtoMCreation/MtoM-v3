@@ -20,9 +20,9 @@
 
         <div class="lg:px-10 lg:border-l border-gray-100">
 
-            <a href="{{ asset('storage/docs/article-test.pdf') }}" target="_blank" class="inline-block mb-6 px-6 py-2 bg-gray-200 text-gray-800 rounded ">
-                Télécharger
-            </a>
+{{--            <a href="{{ asset('storage/docs/article-test.pdf') }}" target="_blank" class="inline-block mb-6 px-6 py-2 bg-gray-200 text-gray-800 rounded ">--}}
+{{--                Télécharger--}}
+{{--            </a>--}}
 
             <h1 class="text-5xl font-title font-title font-bold leading-title-1 before:absolute before ">
                 {{ $article->titre }}
