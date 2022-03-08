@@ -2099,6 +2099,10 @@ label .custom-label {
   text-decoration-thickness: 4px;
 }
 /* ARTICLES */
+.article-content {
+  font-weight: 400;
+  line-height: 2rem;
+}
 .article-content h2 {
   margin-bottom: 0.5rem;
   margin-top: 2.5rem;
@@ -2117,11 +2121,13 @@ label .custom-label {
   margin-left: 1.5rem;
   margin-top: 0.75rem;
   list-style-type: disc;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 .article-content a {
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(16 25 39 / var(--tw-text-opacity));
+  color: rgb(55 65 81 / var(--tw-text-opacity));
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
@@ -2136,6 +2142,8 @@ label .custom-label {
 }
 .article-content p {
   margin-top: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 .first-letter\:text-4xl::first-letter {
   font-size: 2.25rem;

@@ -99,6 +99,9 @@ label .custom-label{
 }
 
 /* ARTICLES */
+.article-content {
+    @apply font-normal leading-8
+}
 .article-content h2{
     @apply text-2xl font-bold mb-2 mt-10
 }
@@ -106,13 +109,13 @@ label .custom-label{
     @apply text-xl font-bold mb-2 mt-6
 }
 .article-content ul li{
-    @apply list-disc ml-6 mt-3
+    @apply list-disc ml-6 mt-3 text-gray-700
 }
 .article-content a{
-    @apply text-mtom-blue font-bold underline hover:text-mtom-orange transition
+    @apply text-mtom-blue font-bold underline hover:text-mtom-orange transition text-gray-700
 }
 .article-content p {
-    @apply mt-5
+    @apply mt-5 text-gray-700
 }
 
 @layer components {

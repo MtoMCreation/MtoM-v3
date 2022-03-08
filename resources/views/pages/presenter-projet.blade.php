@@ -15,7 +15,7 @@
         </div>
 
         <div class="mt-20">
-            <div class="shadow border-4 border-gray-50 rounded-2xl p-5 md:p-20" style="max-width: 1000px; margin: auto">
+            <div class="shadow-lg border-4 border-gray-50 rounded-2xl p-5 md:p-20" style="max-width: 1000px; margin: auto">
                 <form action="{{ route('form.presentation-projet') }}" method="post" class="presentation-projet">
                     @csrf
                     @method('POST')
