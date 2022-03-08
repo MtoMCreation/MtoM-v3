@@ -2111,6 +2111,8 @@ label .custom-label {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .article-content h3 {
   margin-bottom: 0.5rem;
@@ -2118,6 +2120,8 @@ label .custom-label {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .article-content ul li {
   margin-left: 1.5rem;

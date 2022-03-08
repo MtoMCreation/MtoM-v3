@@ -103,10 +103,10 @@ label .custom-label{
     @apply font-normal leading-8 text-gray-700
 }
 .article-content h2{
-    @apply text-2xl font-bold mb-2 mt-10
+    @apply text-2xl font-bold mb-2 mt-10 text-black
 }
 .article-content h3{
-    @apply text-xl font-bold mb-2 mt-6
+    @apply text-xl font-bold mb-2 mt-6 text-black
 }
 .article-content ul li{
     @apply list-disc ml-6 mt-3
