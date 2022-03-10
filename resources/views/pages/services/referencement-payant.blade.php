@@ -52,23 +52,43 @@
                         Une définition précise de vos objectifs en amont permet de répondre à vos besoins en optimisant au maximum votre budget.
                         Les principaux avantages sont :
                     </p>
-                    <ul class="list-disc ml-6 flex-col space-y-4 mt-4 text-lg">
-                        <li class="">
-                            <b>Même avec peu de budget, vous verrez des résultats très rapidement</b>
-                        </li>
-                        <li class="">
-                            <b>Vous augmenterez votre visibilité à coup sûr !</b>
-                        </li>
-                        <li class="">
-                            <b>De la publicité ciblée sur votre clientèle</b>
-                        </li>
-                        <li class="">
-                            <b>Des rapports précis sur la réalisation de vos objectifs</b>
-                        </li>
-                        <li class="">
-                            <b>Si vous voulez tout arrêter, vous pouvez sans frais ni engagement !</b>
-                        </li>
-                    </ul>
+
+                    <div class="space-y-8 mt-8">
+
+                        <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
+
+                            <div class="lg:w-1/2">
+                                <x-icon-box-1 titre="Des résultats peu importe le budget">
+                                    Peu importe votre budget, vous êtes facturé uniquement lorsque l'utilisateur clique sur votre annonce sans jamais dépasser votre budget
+                                </x-icon-box-1>
+                            </div>
+
+                            <div class="lg:w-1/2">
+                                <x-icon-box-1 titre="Vous augmenterez votre visibilité à coup sûr !">
+                                    Créer des annonces qui apparaîtront en fonction des requêtes des utilisateurs. Positionnez vous en répondant directement à leurs besoins.
+                                </x-icon-box-1>
+                            </div>
+                        </div>
+
+                        <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
+
+                            <div class="lg:w-1/2">
+                                <x-icon-box-1 titre="Des rapports précis sur la réalisation de vos objectifs">
+                                    Gardez un oeil sur vos dépenses tout en suivant précisément la réalisation de vos objectifs grâce à des outils de gestion simples et détaillés.
+                                </x-icon-box-1>
+                            </div>
+
+                            <div class="lg:w-1/2">
+                                <x-icon-box-1 titre="Aucun engagement">
+                                    Que ce soit pour des campagnes de notoriété ou pour mettre en avant une offre promotionnelle, gérez vos dépenses publicitaires l'esprit tranquille
+                                </x-icon-box-1>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>

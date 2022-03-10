@@ -20,10 +20,13 @@
                 <h1
                     class="title-1 text-mtom-blue">
                     Publicité <span class="text-mtom-orange">ciblée</span> en ligne
+                    <br>
+                    Facebook Ads
                 </h1>
                 <p class="mt-10">
                     Vous souhaitez faire de la publicité en ciblant précisement votre clientèle ? Vous êtes à la bonne place. Nous vous aidons à mettre en place une stratégie et des campagnes de communication efficaces et ciblées grâce à Facebook Ads.
                 </p>
+                <x-bouton-icon :lien="route('contact')">Contactez-nous pour en savoir plus</x-bouton-icon>
             </div>
 
             <div class="lg:w-4/12 md:ml-6 mt-10 lg:-mt-0">
@@ -49,24 +52,32 @@
 
                     <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
 
-                        <x-icon-box-1 titre="Cibler précisément son audience">
-                            Il est possible d’affiner sa cible et réussir à toucher parfaitement des internautes sans dépenser un gros budget.
-                        </x-icon-box-1>
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Cibler précisément son audience">
+                                Il est possible d’affiner sa cible et réussir à toucher parfaitement des internautes sans dépenser un gros budget.
+                            </x-icon-box-1>
+                        </div>
 
-                        <x-icon-box-1 titre="Toucher des personnes sur mobile">
-                            Les campagnes sur mobile obtiennent d’excellents résultats et un taux de conversion plus élevé.
-                        </x-icon-box-1>
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Toucher des personnes sur mobile">
+                                Les campagnes sur mobile obtiennent d’excellents résultats et un taux de conversion plus élevé.
+                            </x-icon-box-1>
+                        </div>
                     </div>
 
                     <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
 
-                        <x-icon-box-1 titre="Augmenter sa visibilité sur Facebook">
-                            Le nombre de publicitaires sur Facebook a atteint les 5,5 milliards, il faut donc être de plus en plus malin pour se faire remarquer. Pour une entreprise, ajouter des campagnes publicitaires à sa stratégie est une stratégie gagnante.
-                        </x-icon-box-1>
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Augmenter sa visibilité sur Facebook">
+                                Le nombre de publicitaires sur Facebook a atteint les 5,5 milliards, il faut donc être de plus en plus malin pour se faire remarquer. Pour une entreprise, ajouter des campagnes publicitaires à sa stratégie est une stratégie gagnante.
+                            </x-icon-box-1>
+                        </div>
 
-                        <x-icon-box-1 titre="Fidéliser ses visiteurs">
-                            Facebook offre une fonctionnalité de remarketing très puissante. Le Pixel Facebook permet de repérer quels utilisateurs Facebook visitent votre site. Ainsi, vous pourrez créer une liste et cibler ces même personnes via des campagnes.
-                        </x-icon-box-1>
+                        <div class="lg:w-1/2">
+                            <x-icon-box-1 titre="Fidéliser ses visiteurs">
+                                Facebook offre une fonctionnalité de remarketing très puissante. Le Pixel Facebook permet de repérer quels utilisateurs Facebook visitent votre site. Ainsi, vous pourrez créer une liste et cibler ces même personnes via des campagnes.
+                            </x-icon-box-1>
+                        </div>
 
 
                     </div>
