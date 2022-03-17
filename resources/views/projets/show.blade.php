@@ -105,8 +105,8 @@
 
         <div class="max-w-[1000px] container">
 
-            <div class=" pt-12 border-t">
-                <h4 class="font-title text-xl font-bold">Ils nous ont aussi fait confiance</h4>
+            <div class="pt-10 border-t">
+                <h4 class="font-title text-3xl font-bold mt-10 mb-6">Ils nous ont aussi fait confiance</h4>
                 <div class="grid md:grid-cols-2 auto-rows-auto gap-10 mt-5">
                     @foreach($projets_similaires as $projet)
                         <a href="{{ route('projet.show', $projet) }}"
