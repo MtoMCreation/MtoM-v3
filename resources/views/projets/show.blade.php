@@ -102,7 +102,7 @@
 
             <div class="flex bg-[#021223] px-14 py-4 rounded-lg text-white">
                 <div class="w-full md:w-2/3 flex flex-col justify-center">
-                    <h4 class="font-title text-3xl mb-2">Vous avez envie de <br> <span class="text-mtom-orange">booster</span> votre projet ?</h4>
+                    <h4 class="font-title text-4xl mb-2">Envie de <span class="text-mtom-orange">booster</span> <br>votre <span class="underline">projet web</span> ?</h4>
                     <div>
                         <x-bouton-icon :lien="route('contact')">Contactez-nous</x-bouton-icon>
                     </div>
