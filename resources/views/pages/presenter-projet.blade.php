@@ -1,4 +1,12 @@
 <x-layouts.front-layout>
+    @section('title')Présentez-nous votre projet web | MtoM Création
+    @endsection
+
+    @section('meta-description')Création de site web professionnel sur-mesure. Spécialisé dans les sites web vitrines et boutiques en ligne. Experts en conception de sites web et stratégies numériques.
+    @endsection
+
+    @section('og-meta-image'){{ asset('storage/img/visuels/building-websites.png') }}
+    @endsection
 
     <div class="py-20 md:py-32 container">
 
