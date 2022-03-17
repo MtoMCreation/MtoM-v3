@@ -104,7 +104,7 @@
                 <div class="w-full md:w-2/3 flex flex-col justify-center">
                     <h4 class="font-title text-3xl mb-2">Vous avez envie de <br> <span class="text-mtom-orange">booster</span> votre projet ?</h4>
                     <div>
-                        <x-bouton-icon :lien="route('presenter-projet')">Contactez-nous</x-bouton-icon>
+                        <x-bouton-icon :lien="route('contact')">Contactez-nous</x-bouton-icon>
                     </div>
                 </div>
                 <div class="hidden md:inline-flex w-1/3">
