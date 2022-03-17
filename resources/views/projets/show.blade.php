@@ -84,7 +84,7 @@
             </div>
 
             @if($projet->temoignage)
-                <div class="mt-6 bg-gray-50 p-10 rounded-xl mb-20">
+                <div class="mt-6 bg-gray-50 p-10 rounded-xl mb-10">
                     <div class="italic lg:flex lg:items-center lg:space-x-6">
                         <div class="text-mtom-orange hidden lg:block">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -99,7 +99,7 @@
                 </div>
             @endif
 
-
+{{--            CTA --}}
             <div class="flex bg-[#021223] px-14 py-4 rounded-lg text-white">
                 <div class="w-full md:w-2/3 flex flex-col justify-center">
                     <h4 class="font-title text-4xl mb-2">Envie de <span class="text-mtom-orange">booster</span> <br>votre <span class="underline">projet web</span> ?</h4>
