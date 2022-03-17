@@ -62,7 +62,11 @@
             </div>
         </div>
 
-        <div class="articles-similaires mt-10 border-t-2 border-gray-100">
+        <div class="mt-10">
+            <x-call-to-action-rocket-1/>
+        </div>
+
+        <div class="articles-similaires mt-10">
             <h3 class="font-title text-3xl font-bold mt-10 mb-6">Articles similaires</h3>
             <div class="grid md:grid-cols-2 auto-rows-auto gap-10">
                 @foreach($articles_similaires as $article)
