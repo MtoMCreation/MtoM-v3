@@ -99,12 +99,25 @@
                 </div>
             @endif
 
+
+            <div class="flex bg-[#021223] px-14 py-4 rounded-lg text-white">
+                <div class="w-full md:w-2/3 flex flex-col justify-center">
+                    <h4 class="font-title text-3xl mb-2">Vous avez envie de <br> <span class="text-mtom-orange">booster</span> votre projet ?</h4>
+                    <div>
+                        <x-bouton-icon :lien="route('presenter-projet')">Contactez-nous</x-bouton-icon>
+                    </div>
+                </div>
+                <div class="hidden md:inline-flex w-1/3">
+                    <img src="{{ asset('storage/img/visuels/to-the-stars-2.gif') }}" class="rounded" alt="image projet-gorczany-llc-MtoM Création - Création de site web et stratégies numerique à Montréal">
+                </div>
+            </div>
+
         </div>
 
         <div class="max-w-[1000px] container">
 
             <div class=" pt-12 border-t">
-                <h4 class="font-title text-xl font-bold">Projets similaires</h4>
+                <h4 class="font-title text-xl font-bold">Ils nous ont aussi fait confiance</h4>
                 <div class="grid md:grid-cols-2 auto-rows-auto gap-10 mt-5">
                     @foreach($projets_similaires as $projet)
                         <a href="{{ route('projet.show', $projet) }}"
