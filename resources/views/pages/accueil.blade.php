@@ -259,45 +259,58 @@
 
     <!-- Ils Nous ont fait confiance -->
     <div class="page-section-1 flex items-center shadow-lg">
-        <div class="container text-center">
+        <div class="container relative">
 
-            <div class="text-center mb-10">
-                <h4 class="sub-title-2 text-gray-50" >Portfolio</h4>
-                <h2 class="title-2 text-mtom-blue">
-                    Ils nous ont fait <span class="text-mtom-orange">confiance</span>
-                </h2>
-            </div>
-
-{{--            <p class="text-center my-10">--}}
-{{--                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores consectetur dolor ex explicabo facilis, id illum incidunt iure laborum magnam non pariatur perferendis perspiciatis quasi repellat, sed, suscipit voluptas? Culpa earum eligendi expedita facilis maiores minus pariatur ratione velit?--}}
-{{--            </p>--}}
-
-            <div class="mb-5">
-                <div class="hidden lg:block">
-                    @foreach($projetsLG as $projet)
-                        <a href="{{ route('projet.show', $projet) }}">
-                            <img src="{{ asset($projet->logo) }}"
-                                 alt="logo-{{ \Illuminate\Support\Str::slug($projet->client) }}-{{ config('app.tagline-slug') }}"
-                                 class="w-14 inline m-4 transform filter saturate-0 hover:saturate-100 hover:scale-125 hover:-rotate-6 transition transition duration-300 ">
-                        </a>
-                    @endforeach
+            <div class="text-center">
+                <div class="text-center mb-10">
+                    <h4 class="sub-title-2 text-gray-50" >Portfolio</h4>
+                    <h2 class="title-2 text-mtom-blue">
+                        Ils nous ont fait <span class="text-mtom-orange">confiance</span>
+                    </h2>
                 </div>
-                <div class="lg:hidden">
-                    <div class="relative rounded-xl overflow-auto">
-                        <div class="relative w-full flex gap-6 snap-x snap-mandatory overflow-x-auto pb-14">
-                            @foreach($projetsLG as $projet)
-                                <a href="{{ route('projet.show', $projet) }}" class="snap-always snap-center shrink-0 first:pl-8 last:pr-8">
-                                    <img src="{{ asset($projet->logo) }}"
-                                         class="w-[120px] hover:scale-[1.02] transition transition duration-300 ease-in-out"
-                                         alt="image projet-{{ Str::slug($projet->client) }}-{{ config('app.tagline') }}">
-                                </a>
-                            @endforeach
+
+                <div class="mb-5">
+                    <div class="hidden lg:block">
+                        @foreach($projetsLG as $projet)
+                            <a href="{{ route('projet.show', $projet) }}">
+                                <img src="{{ asset($projet->logo) }}"
+                                     alt="logo-{{ \Illuminate\Support\Str::slug($projet->client) }}-{{ config('app.tagline-slug') }}"
+                                     class="w-14 inline m-4 transform filter saturate-0 hover:saturate-100 hover:scale-125 hover:-rotate-6 transition transition duration-300 ">
+                            </a>
+                        @endforeach
+                    </div>
+                    <div class="lg:hidden">
+                        <div class="relative rounded-xl overflow-auto">
+                            <div class="relative w-full flex gap-6 snap-x snap-mandatory overflow-x-auto pb-14">
+                                @foreach($projetsLG as $projet)
+                                    <a href="{{ route('projet.show', $projet) }}" class="snap-always snap-center shrink-0 first:pl-8 last:pr-8">
+                                        <img src="{{ asset($projet->logo) }}"
+                                             class="w-[120px] hover:scale-[1.02] transition transition duration-300 ease-in-out"
+                                             alt="image projet-{{ Str::slug($projet->client) }}-{{ config('app.tagline') }}">
+                                    </a>
+                                @endforeach
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <x-bouton-icon :lien="route('projets')">Voir les projets</x-bouton-icon>
             </div>
 
-            <x-bouton-icon :lien="route('projets')">Voir les projets</x-bouton-icon>
+        </div>
+    </div>
+
+    <div class="bg-[#021223] px-14 py-4 ">
+        <div class="flex text-white container">
+            <div class="w-full md:w-3/4 flex flex-col justify-center">
+                <h4 class="font-title text-5xl mb-2">Envie de <span class="text-mtom-orange">booster</span> votre <br><span class="underline">projet web</span> ?</h4>
+                <div>
+                    <x-bouton-icon :lien="route('contact')">Contactez-nous</x-bouton-icon>
+                </div>
+            </div>
+            <div class="hidden md:inline-flex w-1/4">
+                <img src="{{ asset('storage/img/visuels/to-the-stars-2.gif') }}" class="rounded" alt="image projet-gorczany-llc-MtoM Création - Création de site web et stratégies numerique à Montréal">
+            </div>
         </div>
     </div>
 

@@ -1,9 +1,9 @@
 <x-layouts.front-layout>
 
-@section('title')Création de site web vitrine - MtoM Création
+@section('title')Tous nos services - MtoM Création
 @endsection
 
-@section('meta-description')Création de site web vitrine. Conception, design et développement sur-mesure. Stratégie et optimisation SEO. Formation au CMS. Création de site web professionnel.
+@section('meta-description')Nos services - Création de site web vitrine. Conception, design et développement sur-mesure. Stratégie et optimisation SEO - Création de site web professionnel.
 @endsection
 
 @section('og-meta-image'){{ asset('storage/img/visuels/site-vitrine-image.svg') }}
