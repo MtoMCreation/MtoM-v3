@@ -51,13 +51,13 @@
                 <div class="text-white mt-6 text-base">
                     <ul class="list-disc ml-4 flex-col space-y-4 text-xl">
                         <li class="">
-                            Un service personnalisé pour chaque entreprise : nous mettons un point d’honneur à rencontrer et discuter avec tous nos clients avant de commencer un mandat. Chaque entreprise a des besoins et des attentes différentes et nous aimons les cerner avant d’entreprendre le travail.
+                            <u>Un service personnalisé pour chaque entreprise</u> : nous mettons un point d’honneur à rencontrer et discuter avec tous nos clients avant de commencer un mandat. Chaque entreprise a des besoins et des attentes différentes et nous aimons les cerner avant d’entreprendre le travail.
                         </li>
                         <li>
-                            Une relation de confiance : nous pensons que la confiance entre le prestataire et l’entreprise est le socle d’une relation d’affaire durable. Nous vendons de la confiance avant de vendre notre savoir-faire :)
+                            <u>Une relation de confiance</u> : nous pensons que la confiance entre le prestataire et l’entreprise est le socle d’une relation d’affaire durable. Nous vendons de la confiance avant de vendre notre savoir-faire :)
                         </li>
                         <li>
-                            Une transparence dans les projets : nous essayons d’être le plus clair possible avec nos interlocuteurs. Nous ne faisons appel à aucun intermédiaire pour assurer un travail de qualité, sans surprise à la fin. Payez uniquement pour ce dont vous avez besoin !
+                            <u>Une transparence dans les projets</u> : nous essayons d’être le plus clair possible avec nos interlocuteurs. Nous ne faisons appel à aucun intermédiaire pour assurer un travail de qualité, sans surprise à la fin. Payez uniquement pour ce dont vous avez besoin !
                         </li>
                     </ul>
                 </div>
