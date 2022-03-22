@@ -809,6 +809,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-11 {
   width: 2.75rem;
 }
+.w-\[500px\] {
+  width: 500px;
+}
+.w-\[50px\] {
+  width: 50px;
+}
 .min-w-full {
   min-width: 100%;
 }
