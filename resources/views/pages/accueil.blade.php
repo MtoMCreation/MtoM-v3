@@ -300,16 +300,26 @@
         </div>
     </div>
 
-    <div class="bg-[#021223] px-14 py-4 ">
-        <div class="flex text-white container">
-            <div class="w-full md:w-3/4 flex flex-col justify-center">
-                <h4 class="font-title text-5xl mb-2">Envie de <span class="text-mtom-orange">booster</span> votre <br><span class="underline">projet web</span> ?</h4>
-                <div>
-                    <x-bouton-icon :lien="route('contact')">Contactez-nous</x-bouton-icon>
+    <div class="">
+        <div class="bg-[#021223] px-14 py-20">
+            <div class="flex text-white container">
+                <div class="w-full md:w-3/4 flex flex-col justify-center">
+                    <h4 class="font-title text-5xl mb-2">Envie de <span class="text-mtom-orange">booster</span> votre <br><span class="underline">projet web</span> ?</h4>
+                    <p class="text-white my-4">
+                        <a href="{{ route('site-vitrine') }}">Création de site web sur mesure</a>, <a
+                            href="{{ route('site-marchand') }}">e-commerce</a>, <a
+                            href="{{ route('marketing-digital') }}">stratégie marketing</a>, <a
+                            href="{{ route('publicite-ciblee') }}">publicité ciblée</a>...
+                        <br>
+                        Nous sommes là pour vous accompagner dans votre projet digital.
+                    </p>
+                    <div>
+                        <x-bouton-icon :lien="route('contact')">Contactez-nous</x-bouton-icon>
+                    </div>
                 </div>
-            </div>
-            <div class="hidden md:inline-flex w-1/4">
-                <img src="{{ asset('storage/img/visuels/to-the-stars-2.gif') }}" class="rounded" alt="image projet-gorczany-llc-MtoM Création - Création de site web et stratégies numerique à Montréal">
+                <div class="hidden md:inline-flex w-1/4">
+                    <img src="{{ asset('storage/img/visuels/to-the-stars-2.gif') }}" class="rounded" alt="image projet-gorczany-llc-MtoM Création - Création de site web et stratégies numerique à Montréal">
+                </div>
             </div>
         </div>
     </div>

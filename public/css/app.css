@@ -563,6 +563,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -797,6 +805,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-3\/4 {
   width: 75%;
 }
+.w-\[50px\] {
+  width: 50px;
+}
 .w-2\/3 {
   width: 66.666667%;
 }
@@ -808,12 +819,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-11 {
   width: 2.75rem;
-}
-.w-\[500px\] {
-  width: 500px;
-}
-.w-\[50px\] {
-  width: 50px;
 }
 .min-w-full {
   min-width: 100%;
