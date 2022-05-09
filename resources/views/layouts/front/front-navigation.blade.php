@@ -8,6 +8,10 @@
                     <img src="{{ asset('storage/img/logos/logo-mtom.png') }}" alt="" style="width: 80px">
                 </a>
 
+{{--                <a href="{{ route('accueil') }}" class="py-4 hover:-rotate-6 hover:scale-[1.03] transition duration-300">--}}
+{{--                    <img src="{{ asset('storage/img/logos/test-logo-2-v2.png') }}" alt="" style="width: 150px">--}}
+{{--                </a>--}}
+
                 <ul class="main-nav hidden lg:flex space-x-6 font-title font-bold uppercase md:text-sm xl:text-xl">
                     <li class="nav-links flex items-center space-x-1 cursor-pointer"
                         @click="megaMenu = !megaMenu">

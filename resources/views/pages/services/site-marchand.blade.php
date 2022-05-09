@@ -176,7 +176,7 @@
                     <div class="mt-4 flex-col space-y-4">
                         <x-accordeon titre="Achat ou transfert de nom de domaine"
                                      message="Si vous n’avez pas de encore de nom de domaine, nous en achetons un correspondant au nom de votre entreprise. Si vous avez déjà un nom de domaine, nous le réutilisons pour ne pas perdre en référencement"></x-accordeon>
-                        <x-accordeon titre="Hébergement pour le première année"
+                        <x-accordeon titre="Hébergement pour la première année"
                                      message="Nos prestations comprennent toujours l’hébergement de votre site web pour la première année. Les caractéristiques de chaque site web étant différentes, nous adaptons l’hébergement pour qu’il couvre tous vos besoins en terme de capacité et de trafic. Suivant l’évolution de site, il reste toujours ajustable. "></x-accordeon>
                         <x-accordeon titre="Sécurisation de votre site web"
                                      message="Nous nous engageons à mettre en place toutes les procédures nécessaires pour sécuriser votre site web"></x-accordeon>
@@ -301,7 +301,7 @@
                     </h2>
                 </div>
                 <p class="text-center mt-3">
-                    Une offre adaptée tous vos besoins ! <br>
+                    Une offre adaptée à tous vos besoins ! <br>
                     Retrouvez les autres services que nous proposons pour faire rayonner votre marque.
                 </p>
 

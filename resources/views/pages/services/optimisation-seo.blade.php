@@ -22,7 +22,7 @@
                     Référencement naturel
                 </h1>
                 <p class="mt-10">
-                    Ce qu’on appelle SEO (Search Engine Optimization) correspond à l’ensemble de techniques permettant d’optimiser la visibilité d’une page web dans les résultats de recherche. Concrètement, plus votre site est optimisé, plus il a de chances de ressortir en haut des résultats de recherche lorsque les internautes tapent des requêtes correspondant à votre contenu. Il est donc primordial que cela soit bien fait pour pour qu’on vous trouve facilement.
+                    Ce qu’on appelle SEO (Search Engine Optimization) correspond à l’ensemble de techniques permettant d’optimiser la visibilité d’une page web dans les résultats de recherche. Concrètement, plus votre site est optimisé, plus il a de chances de ressortir en haut des résultats de recherche lorsque les internautes tapent des requêtes correspondant à votre contenu. Il est donc primordial que cela soit bien fait pour qu’on vous trouve facilement.
                     <br>
                     On dit souvent qu’avoir un site web c’est bien, mais s’il n’est pas visité, il ne sert à rien.
                 </p>
@@ -132,7 +132,7 @@
                     </h2>
                 </div>
                 <p class="text-center mt-3">
-                    Une offre adaptée tous vos besoins ! <br>
+                    Une offre adaptée à tous vos besoins ! <br>
                     Retrouvez les autres services que nous proposons pour faire rayonner votre marque.
                 </p>
 

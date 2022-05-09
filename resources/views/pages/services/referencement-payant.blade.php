@@ -22,7 +22,7 @@
                     Google Ads
                 </h1>
                 <p class="mt-10">
-                    Google Ads est la plateforme de publicité du géant du web. Très populaire, elle permet d’afficher des annonces publicitaires en haut de page des résultats du moteurs de recherche en fonction des requêtes tapées et de la cible choisie.
+                    Google Ads est la plateforme de publicité du géant du web. Très populaire, elle permet d’afficher des annonces publicitaires en haut de page des résultats du moteur de recherche en fonction des requêtes tapées et de la cible choisie.
                 </p>
                 <x-bouton-icon :lien="route('contact')">Contactez-nous pour en savoir plus</x-bouton-icon>
             </div>
@@ -48,7 +48,7 @@
 
                 <div class="text-white mt-6 text-base">
                     <p>
-                        Pourquoi utiliser les campagnes Ads dans sa stratégie web ? Avant de vous lancer dans la création de campagnes publicitaires sur Google Ads, il est important de définir vos objectifs pour de pas dépenser votre pudget inutilement. Que ce soit pour augmenter votre visibilité sur le web, acquérir de nouveaux clients, augmenter votre taux de conversion... Les techniques ulilisées ne sont pas les mêmes.
+                        Pourquoi utiliser les campagnes Ads dans sa stratégie web ? Avant de vous lancer dans la création de campagnes publicitaires sur Google Ads, il est important de définir vos objectifs pour de pas dépenser votre budget inutilement. Que ce soit pour augmenter votre visibilité sur le web, acquérir de nouveaux clients, augmenter votre taux de conversion... Les techniques ulilisées ne sont pas les mêmes.
                         Une définition précise de vos objectifs en amont permet de répondre à vos besoins en optimisant au maximum votre budget.
                         Les principaux avantages sont :
                     </p>
@@ -140,7 +140,7 @@
                     <div class="mt-4">
                         <div x-show="unOpen">
                             <p>
-                                Comme dit précédement, avant toute chose, il est primordial de définir quels sont vos objectifs. En d'autres termes, qu'attendez-vous de ces campagnes ? Vous souhaitez : augmenter la notoriété de votre marque en vous plaçant en haut des résultats de recherche, augmenter vos ventes en ligne sur un produit particulier, attirer une nouvelle clientèle... En fonction de vos attentes, la stratégie à adopter ne sera pas la même et une mauvaise définition de vos objectifs aura pour effet de vous faire dépenser votre budget inutilement.
+                                Comme dit précédemment, avant toute chose, il est primordial de définir quels sont vos objectifs. En d'autres termes, qu'attendez-vous de ces campagnes ? Vous souhaitez : augmenter la notoriété de votre marque en vous plaçant en haut des résultats de recherche, augmenter vos ventes en ligne sur un produit particulier, attirer une nouvelle clientèle... En fonction de vos attentes, la stratégie à adopter ne sera pas la même et une mauvaise définition de vos objectifs aura pour effet de vous faire dépenser votre budget inutilement.
                                 <br>
                                 Vous ne savez pas par où commencer ? Pas de panique, nous sommes là pour vous guider étapes par étapes et mettre en place une stratégie sur mesure.
                             </p>
@@ -185,7 +185,7 @@
                     </h2>
                 </div>
                 <p class="text-center mt-3">
-                    Une offre adaptée tous vos besoins ! <br>
+                    Une offre adaptée à tous vos besoins ! <br>
                     Retrouvez les autres services que nous proposons pour faire rayonner votre marque.
                 </p>
 

@@ -21,7 +21,7 @@
                     Gestion des <br> <span class="text-mtom-orange">réseaux sociaux</span>
                 </h1>
                 <p class="mt-10">
-                    Avec près 4,3 milliards de personnes actives sur les réseaux sociaux en 2021, être présent sur les réseaux sociaux n’est une option mais une obligation si vous souhaitez toucher vos clients. MtoM Création vous accompagne dans la gestion de vos médias sociaux en travaillant sur une identité digitale commune sur tous les réseaux associée à un planning de publications complet.
+                    Avec près 4,3 milliards de personnes actives sur les réseaux sociaux en 2022, être présent sur les réseaux sociaux n’est pas une option mais une obligation si vous souhaitez toucher vos clients. MtoM Création vous accompagne dans la gestion de vos médias sociaux en travaillant sur une identité digitale commune sur tous les réseaux associée à un planning de publications complet.
                 </p>
             </div>
 
@@ -48,7 +48,7 @@
                     <div class="xl:flex xl:space-x-8 space-y-8 xl:space-y-0">
                         <div class="lg:w-1/2">
                             <x-icon-box-1 titre="Fidéliser sa clientèle">
-                                Il est bien plus facile de fidéliser un client que d’en convertir un nouveau. Prenez soin de vos client en maintenant une relation via les médias sociaux.
+                                Il est bien plus facile de fidéliser un client que d’en convertir un nouveau. Prenez soin de vos clients en maintenant une relation via les médias sociaux.
                             </x-icon-box-1>
                         </div>
 
@@ -219,7 +219,7 @@
                     </h2>
                 </div>
                 <p class="text-center mt-3">
-                    Une offre adaptée tous vos besoins ! <br>
+                    Une offre adaptée à tous vos besoins ! <br>
                     Retrouvez les autres services que nous proposons pour faire rayonner votre marque.
                 </p>
 

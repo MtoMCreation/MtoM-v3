@@ -21,7 +21,7 @@
                     Maintenance de votre <br><span class="text-mtom-orange">site web</span>
                 </h1>
                 <p class="mt-10">
-                    Il est toujours un peu gênant d’entendre un client vous dire que votre site web est lent, qu’il n’est lisible sur mobile ou que le contenu est obsolète.
+                    Il est toujours un peu gênant d’entendre un client vous dire que votre site web est lent, qu’il n’est pas lisible sur mobile ou que le contenu est obsolète.
                     Le web évolue sans cesse et ses technologies avec. Les habitudes des internautes changent et il est important de garantir la pérennité et la fiabilité de votre support de communication.
                     Assurer la maintenance de son site web n’est pas toujours évident. Mal accompagné, la prise en charge de ce service peut s’avérer coûteuse et complexe. De l’analyse au résultat, notre processus de maintenance est cadré et régulier.
                 </p>
@@ -49,7 +49,7 @@
 
                 <div class="text-white mt-6 text-base">
                     <p>
-                        Nous assurons une maintenance sur les plateformes Wordpress et Shopify, même si nous n’avons pas créée votre site web.
+                        Nous assurons une maintenance sur les plateformes Wordpress et Shopify, même si nous n’avons pas créé votre site web.
                     </p>
                     <ul class="list-disc ml-6 flex-col space-y-3 mt-4 text-lg">
                         <li class="">
@@ -87,7 +87,7 @@
                     </h2>
                 </div>
                 <p class="text-center mt-3">
-                    Une offre adaptée tous vos besoins ! <br>
+                    Une offre adaptée à tous vos besoins ! <br>
                     Retrouvez les autres services que nous proposons pour faire rayonner votre marque.
                 </p>
 
