@@ -48,13 +48,13 @@
                 <div class="text-white mt-6 text-base">
                     <ul class="list-disc ml-6 flex-col space-y-4 mt-4 text-lg">
                         <li class="">
-                            <b>Comprendre et optimiser</b> : Grâce à un audit web, vous serez en mesure d’ajuster vos actions et d’évitez de dépenser du temps et de l’argent pour des actions sans retour.
+                            <b>Comprendre et optimiser</b> : Grâce à un audit web, vous serez en mesure d’ajuster vos actions et d’éviter de dépenser du temps et de l’argent pour des actions sans retour.
                         </li>
                         <li class="">
                             <b>Définir pour mieux repartir</b> : L’audit web expose les forces et les défauts, qui seront corrigés par des recommandations. Le but est de repartir sur de bonnes bases.
                         </li>
                         <li class="">
-                            <b>Optimiser les conversions</b> : Définir les objectif de votre site internet (prise de contact, présentation de vos services, vente de produits en ligne...) et optimiser la navigation client pour surpasser vos objectifs. Créations de tableaux dynamiques pour suivre l'activité sur votre site internet et la réalisation de vos objectifs grâce à l'intégration de balises de conversion.
+                            <b>Optimiser les conversions</b> : Définir les objectifs de votre site internet (prise de contact, présentation de vos services, vente de produits en ligne...) et optimiser la navigation client pour surpasser vos objectifs. Créations de tableaux dynamiques pour suivre l'activité sur votre site internet et la réalisation de vos objectifs grâce à l'intégration de balises de conversion.
                         </li>
                     </ul>
                 </div>
